@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "Ada Lovelace",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Charles Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Flyology",
+      "label": "Conceito"
+    },
+    {
+      "name": "Mary Somerville",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ada Lovelace",
+      "type": "CRIOU",
+      "target": "Flyology",
+      "evidence": "Ada decidiu escrever um livro chamado “Flyology”, podendo ser traduzido como o “Estudo do voo”, que foi ilustrado com suas ideias."
+    },
+    {
+      "source": "Mary Somerville",
+      "type": "COLABOROU_COM",
+      "target": "Ada Lovelace",
+      "evidence": "Ada tornou-se amiga próxima de sua tutora Mary Somerville, que a apresentou para Charles Babbage em 1833."
+    },
+    {
+      "source": "Mary Somerville",
+      "type": "INFLUENCIOU",
+      "target": "Ada Lovelace",
+      "evidence": "Ada tornou-se amiga próxima de sua tutora Mary Somerville"
+    }
+  ],
+  "chunk_id": "ada_lovelace#2"
+}

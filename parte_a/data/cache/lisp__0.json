@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "John McCarthy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Cálculo Lambda",
+      "label": "Conceito"
+    },
+    {
+      "name": "Alonzo Church",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Common Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Scheme",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Clojure",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "MacLisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Interlisp",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John McCarthy",
+      "type": "CRIOU",
+      "target": "Lisp",
+      "evidence": "Lisp é uma família de linguagens de programação concebida por John McCarthy em 1958."
+    },
+    {
+      "source": "Lisp",
+      "type": "BASEADO_EM",
+      "target": "Cálculo Lambda",
+      "evidence": "o que é possível a partir do momento em que há um mecanismo formal para manipular funções: o Cálculo Lambda de Alonzo Church"
+    },
+    {
+      "source": "Alonzo Church",
+      "type": "CRIOU",
+      "target": "Cálculo Lambda",
+      "evidence": "o Cálculo Lambda de Alonzo Church"
+    }
+  ],
+  "chunk_id": "lisp#0"
+}

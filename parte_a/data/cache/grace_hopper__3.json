@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "Remington Rand",
+      "label": "Instituicao"
+    },
+    {
+      "name": "A-0",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "grace_hopper#3"
+}

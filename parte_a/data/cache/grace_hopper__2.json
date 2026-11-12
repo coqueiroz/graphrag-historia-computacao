@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "Grace Hopper",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Faculdade Vassar",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Marinha dos Estados Unidos",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Smith College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Northampton",
+      "label": "Local"
+    },
+    {
+      "name": "Harvard University",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Howard H. Aiken",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Mark I computer",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Eckert-Mauchly Computer",
+      "label": "Instituicao"
+    },
+    {
+      "name": "UNIVAC I",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Remington Rand",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Faculdade Vassar",
+      "evidence": "Outra razão foi a determinação de que o seu emprego como matemática e professora de matemática na Faculdade Vassar eram valiosos demais para o esforço da guerra."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Marinha dos Estados Unidos",
+      "evidence": "Em 1943, Grace tirou uma licença de Vassar e foi empossada na Marinha dos Estados Unidos."
+    },
+    {
+      "source": "Smith College",
+      "type": "LOCALIZADO_EM",
+      "target": "Northampton",
+      "evidence": "Apresentou-se em Dezembro, e treinou na Escola Naval Reserve Midshipmen's do Smith College em Northampton, Massachusetts."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Harvard University",
+      "evidence": "Formou-se em 1944 como a primeira da turma e foi designada para a Bureau of Ships Computation Project da Harvard University como tenente júnior."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Eckert-Mauchly Computer",
+      "evidence": "Em 1949, Grace Hopper tornou-se empregada da corporação Eckert-Mauchly Computer como matemática sénior e compôs a equipa de desenvolvimento UNIVAC I."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Remington Rand",
+      "evidence": "Ela também serviu como diretora do UNIVAC de Desenvolvimento Automático de Programação para Remington Rand."
+    }
+  ],
+  "chunk_id": "grace_hopper#2"
+}

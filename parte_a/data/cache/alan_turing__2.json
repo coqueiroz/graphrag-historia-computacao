@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Baston Lodge",
+      "label": "Local"
+    },
+    {
+      "name": "Guildford",
+      "label": "Local"
+    },
+    {
+      "name": "St. Michael's",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Hazelhurst Preparatory School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sherborne School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Albert Einstein",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Christopher Collan Morcom",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Frances Isobel Morcom",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "INFLUENCIOU",
+      "target": "Albert Einstein",
+      "evidence": "Em 1928, aos 16 anos, entrou em contato com o trabalho de Albert Einstein; não apenas ele o compreendeu, mas é possível que ele tenha conseguido deduzir o questionamento de Einstein das leis de Newton a partir de um texto em que isso nunca foi explicitado."
+    },
+    {
+      "source": "Alan Turing",
+      "type": "COLABOROU_COM",
+      "target": "Christopher Collan Morcom",
+      "evidence": "Em Sherborne, Turing formou uma amizade significativa com o colega Christopher Collan Morcom (13 de julho de 1911 – 13 de fevereiro de 1930), que foi descrito como o seu \"primeiro amor\"."
+    }
+  ],
+  "chunk_id": "alan_turing#2"
+}

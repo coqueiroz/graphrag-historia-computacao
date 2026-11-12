@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Association for Computing Machinery",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alan Mathison Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Intel Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Google",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Association for Computing Machinery",
+      "type": "CRIOU",
+      "target": "Prêmio Turing",
+      "evidence": "O Prêmio Turing é concedido anualmente pela Association for Computing Machinery (ACM) para uma pessoa selecionada por contribuições à computação."
+    }
+  ],
+  "chunk_id": "premio_turing#0"
+}

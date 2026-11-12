@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "World Wide Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Internet",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "CERN",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Suíça",
+      "label": "Local"
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "ENQUIRE",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Robert Cailliau",
+      "label": "Pessoa"
+    },
+    {
+      "name": "NeXTcube",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "WorldWideWeb",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "hipertexto",
+      "label": "Conceito"
+    },
+    {
+      "name": "projeto Xanadu",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "NLS",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Uniform Resource Identifier",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "CERN",
+      "type": "LOCALIZADO_EM",
+      "target": "Suíça",
+      "evidence": "no CERN (Organização Europeia para a Investigação Nuclear), na Suíça"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "ENQUIRE",
+      "evidence": "quando Tim Berners-Lee construiu o ENQUIRE."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "WorldWideWeb",
+      "evidence": "Um computador NeXTcube foi usado por Berners-Lee como primeiro servidor web e também para escrever o primeiro navegador, o WorldWideWeb, em 1990."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "Uniform Resource Identifier",
+      "evidence": "No processo, ele desenvolveu um sistema de identificação global e único de recursos, o Uniform Resource Identifier (URI)."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "COLABOROU_COM",
+      "target": "Robert Cailliau",
+      "evidence": "Com a ajuda de Robert Cailliau, ele publicou uma proposta mais formal para a World Wide Web no final de 1990."
+    }
+  ],
+  "chunk_id": "world_wide_web#0"
+}

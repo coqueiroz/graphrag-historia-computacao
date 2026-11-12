@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "Donald Ervin Knuth",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "TeX",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "METAFONT",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Computer Modern",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "WEB",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "CWEB",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "MIX/MMIX",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Case Institute of Technology",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cleveland",
+      "label": "Local"
+    },
+    {
+      "name": "Ohio",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Stanford",
+      "evidence": "Ele é professor emérito na Universidade de Stanford."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Ele é o recipiente de 1974 do Prêmio Turing da ACM, considerado informalmente como o Prêmio Nobel da ciência da computação."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "TeX",
+      "evidence": "Knuth é o criador do sistema de diagramação computadorizada TeX, do sistema de definição e renderização de fontes relacionado METAFONT e da família de tipos de letra Computer Modern."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "METAFONT",
+      "evidence": "Knuth é o criador do sistema de diagramação computadorizada TeX, do sistema de definição e renderização de fontes relacionado METAFONT e da família de tipos de letra Computer Modern."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "Computer Modern",
+      "evidence": "Knuth é o criador do sistema de diagramação computadorizada TeX, do sistema de definição e renderização de fontes relacionado METAFONT e da família de tipos de letra Computer Modern."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "WEB",
+      "evidence": "Como escritor e estudioso, Knuth criou os sistemas de programação de computadores WEB e CWEB projetados para incentivar e facilitar a programação literata, e projetou as arquiteturas de conjunto de instruções MIX/MMIX."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "CWEB",
+      "evidence": "Como escritor e estudioso, Knuth criou os sistemas de programação de computadores WEB e CWEB projetados para incentivar e facilitar a programação literata, e projetou as arquiteturas de conjunto de instruções MIX/MMIX."
+    },
+    {
+      "source": "Donald Ervin Knuth",
+      "type": "CRIOU",
+      "target": "MIX/MMIX",
+      "evidence": "Como escritor e estudioso, Knuth criou os sistemas de programação de computadores WEB e CWEB projetados para incentivar e facilitar a programação literata, e projetou as arquiteturas de conjunto de instruções MIX/MMIX."
+    },
+    {
+      "source": "Case Institute of Technology",
+      "type": "LOCALIZADO_EM",
+      "target": "Cleveland",
+      "evidence": "Knuth recebeu uma bolsa de estudos em física no Case Institute of Technology (agora parte da Case Western Reserve University) em Cleveland, Ohio, matriculando-se em 1956."
+    },
+    {
+      "source": "Case Institute of Technology",
+      "type": "LOCALIZADO_EM",
+      "target": "Ohio",
+      "evidence": "Knuth recebeu uma bolsa de estudos em física no Case Institute of Technology (agora parte da Case Western Reserve University) em Cleveland, Ohio, matriculando-se em 1956."
+    }
+  ],
+  "chunk_id": "donald_knuth#0"
+}

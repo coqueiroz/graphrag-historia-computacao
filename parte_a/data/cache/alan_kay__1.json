@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "Universidade de Utah",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Laboratório de Inteligência Artificial de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Xerox PARC",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Jean Piaget",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jerome Bruner",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Kay",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Smalltalk",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ethernet",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "impressora laser",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "modelo de rede cliente-servidor",
+      "label": "Conceito"
+    },
+    {
+      "name": "Dynabook",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Chuck Thacker",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Alto",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Atari",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Apple Computer",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Walt Disney Imagineering",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Viewpoints Research Institute",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Applied Minds",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Hewlett-Packard",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Kay",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Utah",
+      "evidence": "er o título de Ph.D. na Universidade de Utah"
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratório de Inteligência Artificial de Stanford",
+      "evidence": "ele passou dois anos como pesquisador no Laboratório de Inteligência Artificial de Stanford."
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Xerox PARC",
+      "evidence": "Kay começou como consultor no centro de pesquisa de Palo Alto da Xerox PARC, em setembro de 1970, e passou a ser pesquisador da empresa em 1971."
+    },
+    {
+      "source": "Smalltalk",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Xerox PARC",
+      "evidence": "Envolveu-se com o projeto da linguagem de programação Smalltalk durante 1971 e 1972 e passou a usar Smalltalk num contexto educacional."
+    },
+    {
+      "source": "Smalltalk",
+      "type": "INFLUENCIOU",
+      "target": "Jean Piaget",
+      "evidence": "Junto com os seus colegas da PARC (influenciado pelas psicologias desenvolvimental e cognitiva de Jean Piaget e Jerome Bruner), Kay concluiu que as crianças aprendiam melhor"
+    },
+    {
+      "source": "Smalltalk",
+      "type": "INFLUENCIOU",
+      "target": "Jerome Bruner",
+      "evidence": "Junto com os seus colegas da PARC (influenciado pelas psicologias desenvolvimental e cognitiva de Jean Piaget e Jerome Bruner), Kay concluiu que as crianças aprendiam melhor"
+    },
+    {
+      "source": "Ethernet",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Xerox PARC",
+      "evidence": "Enquanto liderava esse projeto na PARC, Kay contribuiu para o desenvolvimento da Ethernet, impressora laser e o modelo de rede cliente-servidor."
+    },
+    {
+      "source": "impressora laser",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Xerox PARC",
+      "evidence": "Enquanto liderava esse projeto na PARC, Kay contribuiu para o desenvolvimento da Ethernet, impressora laser e o modelo de rede cliente-servidor."
+    },
+    {
+      "source": "modelo de rede cliente-servidor",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Xerox PARC",
+      "evidence": "Enquanto liderava esse projeto na PARC, Kay contribuiu para o desenvolvimento da Ethernet, impressora laser e o modelo de rede cliente-servidor."
+    },
+    {
+      "source": "Kay",
+      "type": "CRIOU",
+      "target": "Alto",
+      "evidence": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto"
+    },
+    {
+      "source": "Chuck Thacker",
+      "type": "CRIOU",
+      "target": "Alto",
+      "evidence": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto"
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Atari",
+      "evidence": "Após dez anos na Xerox PARC, Kay tornou-se cientista chefe da Atari por três anos."
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Apple Computer",
+      "evidence": "A partir de 1984 Kay associou-se a Apple Computer até o fechamento da ATG"
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Walt Disney Imagineering",
+      "evidence": "Ele então associou-se a Walt Disney Imagineering."
+    },
+    {
+      "source": "Kay",
+      "type": "CRIOU",
+      "target": "Viewpoints Research Institute",
+      "evidence": "Após a Disney, ele fundou em 2001 o Viewpoints Research Institute"
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Applied Minds",
+      "evidence": "Posteriormente, trabalhou com um time da Applied Minds"
+    },
+    {
+      "source": "Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Hewlett-Packard",
+      "evidence": "e então tornou-se pesquisador da Hewlett-Packard"
+    }
+  ],
+  "chunk_id": "alan_kay#1"
+}

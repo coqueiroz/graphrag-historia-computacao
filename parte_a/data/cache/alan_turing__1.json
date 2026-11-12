@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Manchester",
+      "label": "Instituicao"
+    },
+    {
+      "name": "computadores de Manchester",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Reino Unido",
+      "label": "Local"
+    },
+    {
+      "name": "Gordon Brown",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Rainha Elizabeth II",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Maida Vale",
+      "label": "Local"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    },
+    {
+      "name": "Julius Mathison Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Chatrapur",
+      "label": "Local"
+    },
+    {
+      "name": "Índia",
+      "label": "Local"
+    },
+    {
+      "name": "Ethel Sara Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Edward Waller Stoney",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Ferrovias Madras",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Exército de Bengala",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Grã-Bretanha",
+      "label": "Local"
+    },
+    {
+      "name": "John Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Sir John Dermot Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hastings",
+      "label": "Local"
+    },
+    {
+      "name": "Baston Lodge",
+      "label": "Local"
+    },
+    {
+      "name": "St. Leonards-on-Sea",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Manchester",
+      "evidence": "de Manchester, onde ajudou a desenvolver os computadores de Manchester"
+    },
+    {
+      "source": "computadores de Manchester",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade de Manchester",
+      "evidence": "de Manchester, onde ajudou a desenvolver os computadores de Manchester"
+    },
+    {
+      "source": "Julius Mathison Turing",
+      "type": "LOCALIZADO_EM",
+      "target": "Chatrapur",
+      "evidence": "estava de licença de seu cargo no Serviço Civil Indiano (ICS) em Chatrapur, atual estado de Odisha, na Índia."
+    },
+    {
+      "source": "Edward Waller Stoney",
+      "type": "TRABALHOU_EM",
+      "target": "Ferrovias Madras",
+      "evidence": "engenheiro chefe das Ferrovias Madras."
+    }
+  ],
+  "chunk_id": "alan_turing#1"
+}

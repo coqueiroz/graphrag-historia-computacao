@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "Alan Mathison Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    },
+    {
+      "name": "Wilmslow",
+      "label": "Local"
+    },
+    {
+      "name": "Cheshire",
+      "label": "Local"
+    },
+    {
+      "name": "máquina de Turing",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Escola de Código e Cifras do Governo (GC&CS)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bletchley Park",
+      "label": "Local"
+    },
+    {
+      "name": "Enigma",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Laboratório Nacional de Física",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Mecanismo de Computação Automática",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Max Newman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Laboratório de Máquinas de Computação",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Victoria University de Manchester",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Mathison Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Escola de Código e Cifras do Governo (GC&CS)",
+      "evidence": "Durante a Segunda Guerra Mundial, Turing trabalhou para a Escola de Código e Cifras do Governo (GC&CS) em Bletchley Park, o centro britânico de criptoanálise que produzia ultra inteligência."
+    },
+    {
+      "source": "Alan Mathison Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratório Nacional de Física",
+      "evidence": "Após a guerra Turing trabalhou no Laboratório Nacional de Física, onde projetou o Mecanismo de Computação Automática, um dos primeiros projetos para um computador de programa armazenado."
+    },
+    {
+      "source": "Alan Mathison Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratório de Máquinas de Computação",
+      "evidence": "Em 1948 Turing ingressou no Laboratório de Máquinas de Computação de Max Newman, na Victoria University de Manchester, onde ajudou a desenvolver os computadores de Manchester e se interessou por biologia matemática."
+    }
+  ],
+  "chunk_id": "alan_turing#0"
+}

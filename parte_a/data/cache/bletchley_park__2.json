@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "Alastair Denniston",
+      "label": "Pessoa"
+    },
+    {
+      "name": "GC & CS",
+      "label": "Instituicao"
+    },
+    {
+      "name": "John Tiltman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Dillwyn Knox",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Josh Cooper",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Nigel de Gray",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Cambridge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Oxford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Peter Twinn",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gordon Welchman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Jeffreys",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Derek Taunt",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jack Good",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bill Tutte",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Max Newman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Harry Hinsley",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hugh Alexander",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Stuart Milner-Barry",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Joan Clarke",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bletchley Park",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alastair Denniston",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "O Comandante Alastair Denniston foi chefe operacional da GC & CS de 1919 a 1942"
+    },
+    {
+      "source": "John Tiltman",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram John Tiltman"
+    },
+    {
+      "source": "Dillwyn Knox",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram... Dillwyn \"Dilly\" Knox"
+    },
+    {
+      "source": "Josh Cooper",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram... Josh Cooper"
+    },
+    {
+      "source": "Nigel de Gray",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram... Nigel de Gray"
+    },
+    {
+      "source": "Peter Twinn",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Oxford",
+      "evidence": "Peter Twinn de Oxford juntou-se à GC & CS em fevereiro de 1939"
+    },
+    {
+      "source": "Peter Twinn",
+      "type": "TRABALHOU_EM",
+      "target": "GC & CS",
+      "evidence": "Peter Twinn de Oxford juntou-se à GC & CS em fevereiro de 1939"
+    },
+    {
+      "source": "Alan Turing",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Cambridge",
+      "evidence": "Alan Turing de Cambridge"
+    },
+    {
+      "source": "Alan Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Alan Turing de Cambridge e Gordon Welchman começaram a treinar em 1938 e informaram a Bletchley no dia seguinte à declaração da guerra"
+    },
+    {
+      "source": "Gordon Welchman",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Alan Turing de Cambridge e Gordon Welchman começaram a treinar em 1938 e informaram a Bletchley no dia seguinte à declaração da guerra"
+    },
+    {
+      "source": "John Jeffreys",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Alan Turing de Cambridge e Gordon Welchman começaram a treinar em 1938 e informaram a Bletchley no dia seguinte à declaração da guerra, juntamente com John Jeffreys."
+    },
+    {
+      "source": "Derek Taunt",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram os matemáticos Derek Taunt"
+    },
+    {
+      "source": "Jack Good",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... Jack Good"
+    },
+    {
+      "source": "Bill Tutte",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... Bill Tutte"
+    },
+    {
+      "source": "Max Newman",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... Max Newman"
+    },
+    {
+      "source": "Harry Hinsley",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... o historiador Harry Hinsley"
+    },
+    {
+      "source": "Hugh Alexander",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... os campeões de xadrez, Hugh Alexander"
+    },
+    {
+      "source": "Stuart Milner-Barry",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Criptanalistas recrutados posteriormente incluíram... Stuart Milner-Barry"
+    },
+    {
+      "source": "Joan Clarke",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Joan Clarke (eventualmente, vice-chefe da Hut 8) foi uma das poucas mulheres empregadas em Bletchley como um criptanalista de pleno direito."
+    }
+  ],
+  "chunk_id": "bletchley_park#2"
+}

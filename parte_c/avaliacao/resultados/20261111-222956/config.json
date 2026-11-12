@@ -1,0 +1,21 @@
+{
+  "modos": [
+    "graphrag",
+    "baseline"
+  ],
+  "n_perguntas": 30,
+  "no_llm": false,
+  "estrategia": "auto",
+  "config": {
+    "llm_provider": "ollama",
+    "llm_model": "qwen2.5:7b",
+    "strategy": "auto",
+    "top_k": 5,
+    "hops": 3,
+    "max_edges": 30,
+    "baseline_top_k": 5,
+    "max_context_chars": 14000,
+    "readonly_user_configurado": false
+  },
+  "data": "2026-11-11T22:51:53"
+}

@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "Shannon",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bell Telephone Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Uma Teoria Matemática da Criptografia",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Teoria da Comunicação de Sistemas Secretos",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Bell System Technical Journal",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Uma Teoria Matemática da Comunicação",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Uma Teoria Matemática da Criptografia",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Telephone Labs",
+      "evidence": "No final da guerra, ele preparou um memorando para a Bell Telephone Labs intitulado \"Uma Teoria Matemática da Criptografia,\""
+    }
+  ],
+  "chunk_id": "claude_shannon#3"
+}

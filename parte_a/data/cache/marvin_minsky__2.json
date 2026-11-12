@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmio Japão",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmio IJCAI por Excelência em Pesquisa",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Benjamin Franklin do Instituto Franklin",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmios Fundação BBVA Fronteiras do Conhecimento na categoria de Tecnologias de Informação e Comunicação",
+      "label": "Premio"
+    },
+    {
+      "name": "Marvin Minsky",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "marvin_minsky#2"
+}

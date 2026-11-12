@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Microsoft",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Borland",
+      "label": "Instituicao"
+    },
+    {
+      "name": "GCC",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "c_linguagem_de_programacao#3"
+}

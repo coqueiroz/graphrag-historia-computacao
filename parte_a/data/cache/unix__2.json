@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "Darwin",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Mach BSD",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Mac OS X",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Bovet",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Cesati",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mac OS X",
+      "type": "BASEADO_EM",
+      "target": "Darwin",
+      "evidence": "Mac OS X (baseado em um núcleo Mach BSD chamado Darwin)."
+    },
+    {
+      "source": "Darwin",
+      "type": "BASEADO_EM",
+      "target": "Mach BSD",
+      "evidence": "núcleo Mach BSD chamado Darwin"
+    },
+    {
+      "source": "Bovet",
+      "type": "COLABOROU_COM",
+      "target": "Cesati",
+      "evidence": "Bovet e Cesati [4] definem um sistema multiusuário como \"aquele capaz de executar, concorrente e independentemente, várias aplicações pertencentes a dois ou mais usuários\"."
+    }
+  ],
+  "chunk_id": "unix#2"
+}

@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "Tim Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Poole",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Robert Cailliau",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Plessey",
+      "label": "Instituicao"
+    },
+    {
+      "name": "D. G. Nash",
+      "label": "Instituicao"
+    },
+    {
+      "name": "CERN",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Image Computer Systems, Ltd.",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Poole",
+      "label": "Local"
+    },
+    {
+      "name": "Ferndown",
+      "label": "Local"
+    },
+    {
+      "name": "Genebra",
+      "label": "Local"
+    },
+    {
+      "name": "Bournemouth",
+      "label": "Local"
+    },
+    {
+      "name": "ENQUIRE",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "World Wide Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "WorldWideWeb",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "CERN httpd",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "hipertexto",
+      "label": "Conceito"
+    },
+    {
+      "name": "TCP",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "DNS",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Plessey",
+      "evidence": "Depois da graduação, trabalhou como engenheiro na empresa de telecomunicações Plessey, em Poole, no condado de Dorset."
+    },
+    {
+      "source": "Plessey",
+      "type": "LOCALIZADO_EM",
+      "target": "Poole",
+      "evidence": "Depois da graduação, trabalhou como engenheiro na empresa de telecomunicações Plessey, em Poole, no condado de Dorset."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "D. G. Nash",
+      "evidence": "Em 1978, entrou na D. G. Nash, em Ferndown, onde ajudou a desenvolver um programa de composição tipográfica para impressoras."
+    },
+    {
+      "source": "D. G. Nash",
+      "type": "LOCALIZADO_EM",
+      "target": "Ferndown",
+      "evidence": "Em 1978, entrou na D. G. Nash, em Ferndown, onde ajudou a desenvolver um programa de composição tipográfica para impressoras."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "CERN",
+      "evidence": "Entre junho e dezembro de 1980, prestou serviços ao CERN como contratado independente."
+    },
+    {
+      "source": "CERN",
+      "type": "LOCALIZADO_EM",
+      "target": "Genebra",
+      "evidence": "Entre junho e dezembro de 1980, prestou serviços ao CERN como contratado independente. Em Genebra, propôs um projeto baseado em hipertexto para facilitar o compartilhamento e a atualização de informações entre pesquisadores."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "ENQUIRE",
+      "evidence": "Construiu um protótipo chamado ENQUIRE para apresentar a ideia."
+    },
+    {
+      "source": "ENQUIRE",
+      "type": "DESENVOLVIDO_EM",
+      "target": "CERN",
+      "evidence": "Entre junho e dezembro de 1980, prestou serviços ao CERN como contratado independente. Em Genebra, propôs um projeto baseado em hipertexto para facilitar o compartilhamento e a atualização de informações entre pesquisadores. Construiu um protótipo chamado ENQUIRE para apresentar a ideia."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Image Computer Systems, Ltd.",
+      "evidence": "Ao deixar o CERN no fim de 1980, passou a trabalhar na Image Computer Systems, Ltd., de John Poole, em Bournemouth, Dorset."
+    },
+    {
+      "source": "Image Computer Systems, Ltd.",
+      "type": "LOCALIZADO_EM",
+      "target": "Bournemouth",
+      "evidence": "Ao deixar o CERN no fim de 1980, passou a trabalhar na Image Computer Systems, Ltd., de John Poole, em Bournemouth, Dorset."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "World Wide Web",
+      "evidence": "Eu só precisava pegar a ideia do hipertexto e conectá-la às ideias de TCP e DNS e, tcharam, surgiu a World Wide Web.— Tim Berners-Lee"
+    },
+    {
+      "source": "World Wide Web",
+      "type": "BASEADO_EM",
+      "target": "hipertexto",
+      "evidence": "Eu só precisava pegar a ideia do hipertexto e conectá-la às ideias de TCP e DNS e, tcharam, surgiu a World Wide Web.— Tim Berners-Lee"
+    },
+    {
+      "source": "World Wide Web",
+      "type": "BASEADO_EM",
+      "target": "TCP",
+      "evidence": "Eu só precisava pegar a ideia do hipertexto e conectá-la às ideias de TCP e DNS e, tcharam, surgiu a World Wide Web.— Tim Berners-Lee"
+    },
+    {
+      "source": "World Wide Web",
+      "type": "BASEADO_EM",
+      "target": "DNS",
+      "evidence": "Eu só precisava pegar a ideia do hipertexto e conectá-la às ideias de TCP e DNS e, tcharam, surgiu a World Wide Web.— Tim Berners-Lee"
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "COLABOROU_COM",
+      "target": "Robert Cailliau",
+      "evidence": "Robert Cailliau aderiu ao projeto em 1990, ajudou a obter apoio no CERN e assinou com Berners-Lee uma nova proposta naquele ano."
+    },
+    {
+      "source": "World Wide Web",
+      "type": "BASEADO_EM",
+      "target": "ENQUIRE",
+      "evidence": "Eles retomaram ideias do ENQUIRE para criar a World Wide Web."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "WorldWideWeb",
+      "evidence": "Berners-Lee projetou e construiu o primeiro navegador web, o WorldWideWeb, que também permitia editar páginas e rodava no sistema operacional NEXTSTEP."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "CRIOU",
+      "target": "CERN httpd",
+      "evidence": "Criou ainda o primeiro servidor da Web, o CERN httpd, um daemon de HTTP."
+    }
+  ],
+  "chunk_id": "tim_berners_lee#1"
+}

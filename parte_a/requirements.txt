@@ -1,0 +1,5 @@
+requests
+pydantic
+rapidfuzz
+google-genai
+python-dotenv

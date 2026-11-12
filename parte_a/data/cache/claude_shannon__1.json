@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "Claude Shannon",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Álgebra booleana",
+      "label": "Conceito"
+    },
+    {
+      "name": "Universidade de Michigan",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Vannevar Bush",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Analisador diferencial",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "George Boole",
+      "label": "Pessoa"
+    },
+    {
+      "name": "A Symbolic Analysis of Relay and Switching Circuits",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Thomas Edison",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Claude Shannon",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Michigan",
+      "evidence": "Em 1932 Shannon começou a cursar a Universidade de Michigan, formando em 1936 com duas graduações de bacharelado em engenharia elétrica e matemática."
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "ESTUDOU_EM",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "Posteriormente, começou seus estudos de pós-graduação no Instituto de Tecnologia de Massachusetts (MIT)"
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "onde trabalhou com o analisador diferencial de Vannevar Bush, um computador lógico."
+    },
+    {
+      "source": "George Boole",
+      "type": "CRIOU",
+      "target": "Álgebra booleana",
+      "evidence": "George Boole, inventor da álgebra booleana"
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "CRIOU",
+      "target": "A Symbolic Analysis of Relay and Switching Circuits",
+      "evidence": "Um documento elaborado a partir da sua tese de mestrado em 1937, A Symbolic Analysis of Relay and Switching Circuits"
+    },
+    {
+      "source": "A Symbolic Analysis of Relay and Switching Circuits",
+      "type": "BASEADO_EM",
+      "target": "Álgebra booleana",
+      "evidence": "Ao estudar os complexos circuitos ad hoc do analisador diferencial, Shannon viu que os conceitos de George Boole, inventor da álgebra booleana, poderiam ser úteis para várias coisas."
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "INFLUENCIOU",
+      "target": "Thomas Edison",
+      "evidence": "Seu herói de infância era Thomas Edison, que descobriu depois ser um primo distante."
+    }
+  ],
+  "chunk_id": "claude_shannon#1"
+}

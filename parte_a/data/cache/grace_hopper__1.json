@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "Thomas Edison",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Grace Hopper",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Marinha da Marinha",
+      "label": "Instituicao"
+    },
+    {
+      "name": "NERSC",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cray XE6 \"Hopper\"",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Yale",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Medalha Nacional de Tecnologia",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Presidencial de Liberdade",
+      "label": "Premio"
+    },
+    {
+      "name": "Barack Obama",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Nova Iorque",
+      "label": "Local"
+    },
+    {
+      "name": "Walter Fletcher Murray",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Mary Campbell Van Horne",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Alexander Wilson Russell",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hartridge School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Plainfield",
+      "label": "Local"
+    },
+    {
+      "name": "Vassar College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Yale University",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Øystein Ore",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Vincent Foster Hopper",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Nova Iorque",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Faculdade Vassar",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Grace Hopper",
+      "type": "RECEBEU",
+      "target": "Medalha Nacional de Tecnologia",
+      "evidence": "Em 1991 recebeu uma Medalha Nacional de Tecnologia e no dia 22 de Novembro de 2016 foi postumamente premiada com a Medalha Presidencial de Liberdade pelo Presidente Barack Obama."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "RECEBEU",
+      "target": "Medalha Presidencial de Liberdade",
+      "evidence": "Em 1991 recebeu uma Medalha Nacional de Tecnologia e no dia 22 de Novembro de 2016 foi postumamente premiada com a Medalha Presidencial de Liberdade pelo Presidente Barack Obama."
+    },
+    {
+      "source": "Hartridge School",
+      "type": "LOCALIZADO_EM",
+      "target": "Plainfield",
+      "evidence": "Grace Hopper foi à Hartridge School em Plainfield, Nova Jersei."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "ESTUDOU_EM",
+      "target": "Vassar College",
+      "evidence": "Foi inicialmente rejeitada no processo de admissão no Vassar College aos 16 anos (suas notas em latim eram baixas), sendo admitida no ano seguinte."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "ESTUDOU_EM",
+      "target": "Yale University",
+      "evidence": "Em 1934, também na Yale University, conquistou seu Ph.D. em Matemática sob a orientação de Øystein Ore."
+    },
+    {
+      "source": "Øystein Ore",
+      "type": "ORIENTOU",
+      "target": "Grace Hopper",
+      "evidence": "Em 1934, também na Yale University, conquistou seu Ph.D. em Matemática sob a orientação de Øystein Ore."
+    },
+    {
+      "source": "Grace Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Faculdade Vassar",
+      "evidence": "Começou a ensinar Matemática no Vassar em 1931 e foi promovida a professora associada em 1941."
+    }
+  ],
+  "chunk_id": "grace_hopper#1"
+}

@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Instituto de Estudos Avançados de Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nova Jérsei",
+      "label": "Local"
+    },
+    {
+      "name": "Albert Einstein",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Erwin Panofsky",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Kurt Gödel",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Robert Oppenheimer",
+      "label": "Pessoa"
+    },
+    {
+      "name": "George F. Kennan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hermann Weyl",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Edward Teller",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Stanisław Ulam",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Projeto Manhattan",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Macy Conferences",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Budapeste",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "Foi membro do Instituto de Estudos Avançados de Princeton, Nova Jérsei"
+    },
+    {
+      "source": "Instituto de Estudos Avançados de Princeton",
+      "type": "LOCALIZADO_EM",
+      "target": "Nova Jérsei",
+      "evidence": "Foi membro do Instituto de Estudos Avançados de Princeton, Nova Jérsei"
+    },
+    {
+      "source": "Albert Einstein",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "Foi membro do Instituto de Estudos Avançados de Princeton, Nova Jérsei, do qual também faziam parte Albert Einstein"
+    },
+    {
+      "source": "Erwin Panofsky",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "Foi membro do Instituto de Estudos Avançados de Princeton, Nova Jérsei, do qual também faziam parte Albert Einstein e Erwin Panofsky"
+    },
+    {
+      "source": "Kurt Gödel",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "além de Kurt Gödel"
+    },
+    {
+      "source": "Robert Oppenheimer",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "além de Kurt Gödel, Robert Oppenheimer"
+    },
+    {
+      "source": "George F. Kennan",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "além de Kurt Gödel, Robert Oppenheimer, George F. Kennan"
+    },
+    {
+      "source": "Hermann Weyl",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "além de Kurt Gödel, Robert Oppenheimer, George F. Kennan e Hermann Weyl"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "COLABOROU_COM",
+      "target": "Edward Teller",
+      "evidence": "Com Edward Teller e Stanisław Ulam, von Neumann trabalhou em desenvolvimentos chave da Física Nuclear"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "COLABOROU_COM",
+      "target": "Stanisław Ulam",
+      "evidence": "Com Edward Teller e Stanisław Ulam, von Neumann trabalhou em desenvolvimentos chave da Física Nuclear"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Projeto Manhattan",
+      "evidence": "Participou também do Projeto Manhattan"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Princeton",
+      "evidence": "Foi professor na Universidade de Princeton"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "CRIOU",
+      "target": "ENIAC",
+      "evidence": "Foi professor na Universidade de Princeton e um dos construtores do ENIAC."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Macy Conferences",
+      "evidence": "von Neumann integrou o grupo reunido sob o nome de Macy Conferences"
+    }
+  ],
+  "chunk_id": "john_von_neumann#0"
+}

@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "Bjarne Stroustrup",
+      "label": "Pessoa"
+    },
+    {
+      "name": "laboratórios Bell",
+      "label": "Instituicao"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Windows",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Microsoft",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Bjarne Stroustrup",
+      "type": "TRABALHOU_EM",
+      "target": "laboratórios Bell",
+      "evidence": "Ao mesmo tempo, Bjarne Stroustrup, juntamente com outros nos laboratórios Bell, começou a trabalhar num projecto onde se adicionavam extras para programação orientada por objectos à linguagem C."
+    },
+    {
+      "source": "Bjarne Stroustrup",
+      "type": "CRIOU",
+      "target": "C++",
+      "evidence": "A linguagem que eles produziram, chamada C++, é nos dias de hoje a linguagem de programação de aplicações mais comum no sistema operativo Windows da companhia Microsoft."
+    },
+    {
+      "source": "C++",
+      "type": "BASEADO_EM",
+      "target": "C",
+      "evidence": "Ao mesmo tempo, Bjarne Stroustrup, juntamente com outros nos laboratórios Bell, começou a trabalhar num projecto onde se adicionavam extras para programação orientada por objectos à linguagem C. A linguagem que eles produziram, chamada C++"
+    }
+  ],
+  "chunk_id": "c_linguagem_de_programacao#1"
+}

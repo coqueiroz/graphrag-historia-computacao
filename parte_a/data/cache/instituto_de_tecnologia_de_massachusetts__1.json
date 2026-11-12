@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Fields",
+      "label": "Premio"
+    },
+    {
+      "name": "Estados Unidos",
+      "label": "Local"
+    },
+    {
+      "name": "Boston",
+      "label": "Local"
+    },
+    {
+      "name": "William Barton Rogers",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Albion Andrew",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade da Virgínia",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "William Barton Rogers",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade da Virgínia",
+      "evidence": "Rogers, um geólogo que havia chegado recentemente a Boston vindo da Universidade da Virgínia, queria estabelecer uma instituição capaz de responder aos rápidos avanços científicos e tecnológicos."
+    }
+  ],
+  "chunk_id": "instituto_de_tecnologia_de_massachusetts#1"
+}

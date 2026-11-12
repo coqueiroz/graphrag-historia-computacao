@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "World Wide Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "British Council",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Brasil",
+      "label": "Local"
+    },
+    {
+      "name": "CERN",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "W3C",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Curl Corp",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Curl",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "East Dorset Heritage Trust",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Colehill",
+      "label": "Local"
+    },
+    {
+      "name": "Wimborne",
+      "label": "Local"
+    },
+    {
+      "name": "East Dorset",
+      "label": "Local"
+    },
+    {
+      "name": "Escola de Eletrônica e Ciência da Computação da Universidade de Southampton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Southampton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Hampshire",
+      "label": "Local"
+    },
+    {
+      "name": "Web semântica",
+      "label": "Conceito"
+    },
+    {
+      "name": "The Times",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Proton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Proton Foundation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nigel Shadbolt",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gordon Brown",
+      "label": "Pessoa"
+    },
+    {
+      "name": "World Wide Web Foundation",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Curl Corp",
+      "evidence": "Berners-Lee foi consultor ocasional da Curl Corp, empresa ligada à linguagem de programação Curl."
+    },
+    {
+      "source": "Escola de Eletrônica e Ciência da Computação da Universidade de Southampton",
+      "type": "LOCALIZADO_EM",
+      "target": "Hampshire",
+      "evidence": "Em 2004, aceitou uma cátedra de ciência da computação na Escola de Eletrônica e Ciência da Computação da Universidade de Southampton, em Hampshire, para trabalhar na Web semântica."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "COLABOROU_COM",
+      "target": "Nigel Shadbolt",
+      "evidence": "Até 2010, Berners-Lee havia ajudado a desenvolver o portal data.gov.uk com Nigel Shadbolt."
+    }
+  ],
+  "chunk_id": "tim_berners_lee#2"
+}

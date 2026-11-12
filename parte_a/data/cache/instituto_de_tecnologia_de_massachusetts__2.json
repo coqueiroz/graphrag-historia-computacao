@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Mercantile Building",
+      "label": "Local"
+    },
+    {
+      "name": "Boston",
+      "label": "Local"
+    },
+    {
+      "name": "Massachusetts Agricultural College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Massachusetts Amherst",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Back Bay",
+      "label": "Local"
+    },
+    {
+      "name": "Francis Amasa Walker",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade Harvard",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Charles William Eliot",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Lawrence Scientific School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Harvard College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Allston",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "MIT",
+      "type": "LOCALIZADO_EM",
+      "target": "Boston",
+      "evidence": "as primeiras aulas do MIT foram ministradas no Mercantile Building, em Boston, em 1865."
+    },
+    {
+      "source": "Massachusetts Agricultural College",
+      "type": "INFLUENCIOU",
+      "target": "Universidade de Massachusetts Amherst",
+      "evidence": "a Comunidade de Massachusetts fundou o Massachusetts Agricultural College, que mais tarde se transformou na Universidade de Massachusetts Amherst."
+    },
+    {
+      "source": "Francis Amasa Walker",
+      "type": "TRABALHOU_EM",
+      "target": "MIT",
+      "evidence": "o instituto cresceu nas duas últimas décadas do século XIX sob a presidência de Francis Amasa Walker."
+    },
+    {
+      "source": "Charles William Eliot",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade Harvard",
+      "evidence": "tentativas do presidente da Universidade Harvard — e ex-docente do MIT —, Charles William Eliot, de fundir o MIT com a Lawrence Scientific School do Harvard College."
+    },
+    {
+      "source": "Charles William Eliot",
+      "type": "TRABALHOU_EM",
+      "target": "MIT",
+      "evidence": "tentativas do presidente da Universidade Harvard — e ex-docente do MIT —, Charles William Eliot, de fundir o MIT com a Lawrence Scientific School do Harvard College."
+    }
+  ],
+  "chunk_id": "instituto_de_tecnologia_de_massachusetts#2"
+}

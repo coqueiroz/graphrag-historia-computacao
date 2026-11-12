@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "Van Emde Boas",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Máquina de Turing",
+      "label": "Conceito"
+    },
+    {
+      "name": "Máquina de Turing com k fitas",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "maquina_de_turing#1"
+}

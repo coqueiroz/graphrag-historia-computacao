@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "Charles Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "charles_babbage#2"
+}

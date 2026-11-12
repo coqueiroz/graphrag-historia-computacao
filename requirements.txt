@@ -1,0 +1,5 @@
+# Instala as dependências de todas as partes de uma vez:  pip install -r requirements.txt
+-r parte_a/requirements.txt
+-r parte_b/requirements.txt
+-r parte_c/requirements.txt
+-r parte_d/requirements.txt

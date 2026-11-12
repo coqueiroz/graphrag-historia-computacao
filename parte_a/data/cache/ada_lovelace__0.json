@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "Ada Lovelace",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Charles Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Máquina Analítica",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Algoritmo",
+      "label": "Conceito"
+    },
+    {
+      "name": "Luigi Federico Menabrea",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ada Lovelace",
+      "type": "CRIOU",
+      "target": "Algoritmo",
+      "evidence": "Hoje é reconhecida principalmente por ter escrito o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage."
+    },
+    {
+      "source": "Ada Lovelace",
+      "type": "COLABOROU_COM",
+      "target": "Charles Babbage",
+      "evidence": "Na juventude, seus talentos matemáticos levaram-na a uma relação de trabalho e de amizade com o colega matemático britânico Charles Babbage"
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "CRIOU",
+      "target": "Máquina Analítica",
+      "evidence": "o trabalho de Babbage sobre a Máquina Analítica."
+    }
+  ],
+  "chunk_id": "ada_lovelace#0"
+}

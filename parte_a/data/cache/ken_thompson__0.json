@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "Kenneth Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Nova Orleães",
+      "label": "Local"
+    },
+    {
+      "name": "UNIX",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Multics",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Bell Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Dennis Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Plan 9",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "UTF-8",
+      "label": "Conceito"
+    },
+    {
+      "name": "Belle",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Google",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Go",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Kenneth Thompson",
+      "type": "TRABALHOU_EM",
+      "target": "Bell Labs",
+      "evidence": "Originalmente contratado em 1966 para trabalhar no projeto Multics da Bell Labs, Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX."
+    },
+    {
+      "source": "Kenneth Thompson",
+      "type": "COLABOROU_COM",
+      "target": "Dennis Ritchie",
+      "evidence": "Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX."
+    },
+    {
+      "source": "Kenneth Thompson",
+      "type": "CRIOU",
+      "target": "UNIX",
+      "evidence": "Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX."
+    },
+    {
+      "source": "Kenneth Thompson",
+      "type": "CRIOU",
+      "target": "B",
+      "evidence": "Thompson também criou a linguagem de programação B, uma precursora da linguagem C de Dennis Ritchie."
+    },
+    {
+      "source": "B",
+      "type": "BASEADO_EM",
+      "target": "C",
+      "evidence": "invenção da linguagem de programação B, antecessora da linguagem de programação C."
+    },
+    {
+      "source": "Kenneth Thompson",
+      "type": "TRABALHOU_EM",
+      "target": "Google",
+      "evidence": "Desde 2006, está trabalhando na empresa Google, onde co-inventou a linguagem de programação Go."
+    },
+    {
+      "source": "Kenneth Thompson",
+      "type": "CRIOU",
+      "target": "Go",
+      "evidence": "Desde 2006, está trabalhando na empresa Google, onde co-inventou a linguagem de programação Go."
+    }
+  ],
+  "chunk_id": "ken_thompson#0"
+}

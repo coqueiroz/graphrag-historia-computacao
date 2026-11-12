@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Arquitetura de von Neumann",
+      "label": "Conceito"
+    },
+    {
+      "name": "Máquina de Turing universal",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "IAS (Princeton Institute for Advanced Studies)",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John von Neumann",
+      "type": "CRIOU",
+      "target": "Arquitetura de von Neumann",
+      "evidence": "O modelo (ou arquitetura) de Von Neumann foi concebido a partir de 1946, quando John von Neumann e  sua equipe desenvolveram um novo projeto de “computador de programa armazenado”."
+    }
+  ],
+  "chunk_id": "arquitetura_de_von_neumann#0"
+}

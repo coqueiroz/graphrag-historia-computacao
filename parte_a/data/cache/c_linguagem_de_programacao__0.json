@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Organização Internacional para Padronização",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Dennis Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "AT&T Bell Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Assembly",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Java",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ISO",
+      "label": "Instituicao"
+    },
+    {
+      "name": "IEC",
+      "label": "Instituicao"
+    },
+    {
+      "name": "GCC8",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Clang LLVM6",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ken Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "BCPL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Stephen C. Johnson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Portable C Compiler",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Brian Kernighan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "The C Programming Language",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "criada em 1972 por Dennis Ritchie na empresa AT&T Bell Labs para desenvolvimento do sistema operacional Unix"
+    },
+    {
+      "source": "C",
+      "type": "DESENVOLVIDO_EM",
+      "target": "AT&T Bell Labs",
+      "evidence": "criada em 1972 por Dennis Ritchie na empresa AT&T Bell Labs para desenvolvimento do sistema operacional Unix"
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "Java",
+      "evidence": "C tem influenciado muitas outras linguagens de programação (por exemplo, a linguagem Java), mais notavelmente C++, que originalmente começou como uma extensão para C."
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "C++",
+      "evidence": "C tem influenciado muitas outras linguagens de programação (por exemplo, a linguagem Java), mais notavelmente C++, que originalmente começou como uma extensão para C."
+    },
+    {
+      "source": "B",
+      "type": "BASEADO_EM",
+      "target": "BCPL",
+      "evidence": "A linguagem foi chamada \"C\", porque suas características foram obtidas a partir de uma linguagem anteriormente chamada de \"B\", que de acordo com Ken Thompson era a versão reduzida da linguagem de programação BCPL."
+    },
+    {
+      "source": "Stephen C. Johnson",
+      "type": "CRIOU",
+      "target": "Portable C Compiler",
+      "evidence": "O Portable C Compiler de Johnson serviu de base para várias implementações de C em novas plataformas."
+    },
+    {
+      "source": "Brian Kernighan",
+      "type": "CRIOU",
+      "target": "The C Programming Language",
+      "evidence": "em 1978 Brian Kernighan e Dennis Ritchie lançam o livro The C Programming Language que serviu de tutorial e mudou a história da programação em C."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "The C Programming Language",
+      "evidence": "em 1978 Brian Kernighan e Dennis Ritchie lançam o livro The C Programming Language que serviu de tutorial e mudou a história da programação em C."
+    }
+  ],
+  "chunk_id": "c_linguagem_de_programacao#0"
+}

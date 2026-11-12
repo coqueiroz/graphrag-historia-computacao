@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "name": "URL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HTTP",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HTML",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "web 1.0",
+      "label": "Conceito"
+    },
+    {
+      "name": "web 2.0",
+      "label": "Conceito"
+    },
+    {
+      "name": "web 3.0",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "world_wide_web#2"
+}

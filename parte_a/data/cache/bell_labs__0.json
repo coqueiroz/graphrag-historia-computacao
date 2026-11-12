@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "Bell Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nokia",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Murray Hill",
+      "label": "Local"
+    },
+    {
+      "name": "Nova Jérsei",
+      "label": "Local"
+    },
+    {
+      "name": "American Telephone and Telegraph Company",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "S",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "SNOBOL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "AWK",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "AMPL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Bell System",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Western Electric",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nova Iorque",
+      "label": "Local"
+    },
+    {
+      "name": "Bell Telephone Laboratories",
+      "label": "Instituicao"
+    },
+    {
+      "name": "AT&T Technologies",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Lucent Technologies",
+      "label": "Instituicao"
+    },
+    {
+      "name": "AT&T Laboratories",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alcatel",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alcatel-Lucent",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alexander Graham Bell",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Prêmio Volta",
+      "label": "Premio"
+    },
+    {
+      "name": "Laboratório Volta",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sumner Tainter",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Chichester Bell",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Washington, D.C.",
+      "label": "Local"
+    },
+    {
+      "name": "Volta Bureau",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alexander Melville Bell",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Bell Labs",
+      "type": "LOCALIZADO_EM",
+      "target": "Murray Hill",
+      "evidence": "Sua sede fica em Murray Hill, Nova Jérsei, e a empresa mantém laboratórios nos Estados Unidos e em outros países."
+    },
+    {
+      "source": "Unix",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "B",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "C",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "C++",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a rádio astronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "S",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a rádio astronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "SNOBOL",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "AWK",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "AMPL",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Bell Labs",
+      "evidence": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias."
+    },
+    {
+      "source": "Alexander Graham Bell",
+      "type": "RECEBEU",
+      "target": "Prêmio Volta",
+      "evidence": "Em 1880, o governo francês concedeu a Alexander Graham Bell o Prêmio Volta de 50.000 francos pela invenção do telefone"
+    },
+    {
+      "source": "Laboratório Volta",
+      "type": "LOCALIZADO_EM",
+      "target": "Washington, D.C.",
+      "evidence": "Bell usou o prêmio para financiar o Laboratório Volta, também chamado de 'Laboratório Alexander Graham Bell', em Washington, D.C., com Sumner Tainter e seu primo Chichester Bell."
+    },
+    {
+      "source": "Volta Bureau",
+      "type": "LOCALIZADO_EM",
+      "target": "Washington, D.C.",
+      "evidence": "Esse trabalho levou à criação do Volta Bureau, por volta de 1887, na casa de seu pai, o linguista Alexander Melville Bell, em Washington, D.C."
+    }
+  ],
+  "chunk_id": "bell_labs#0"
+}

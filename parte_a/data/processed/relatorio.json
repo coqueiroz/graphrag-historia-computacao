@@ -1,0 +1,159 @@
+{
+  "contagens": {
+    "chunks": 86,
+    "descartada_auto_relacao": 1,
+    "descartada_duplicada": 66,
+    "descartada_entidade_inexistente": 1,
+    "descartada_tipos_de_no_errados": 13,
+    "documentos": 27,
+    "entidades_brutas": 980,
+    "entidades_finais": 636,
+    "mencoes_validas": 980,
+    "nomes_distintos_antes_resolucao": 659,
+    "relacoes_brutas": 442,
+    "relacoes_finais": 361
+  },
+  "entidades_por_label": {
+    "Pessoa": 160,
+    "Tecnologia": 152,
+    "Conceito": 25,
+    "Local": 83,
+    "Premio": 19,
+    "Instituicao": 197
+  },
+  "relacoes_por_tipo": {
+    "CRIOU": 70,
+    "COLABOROU_COM": 29,
+    "INFLUENCIOU": 29,
+    "RECEBEU": 25,
+    "ESTUDOU_EM": 29,
+    "TRABALHOU_EM": 93,
+    "DESENVOLVIDO_EM": 33,
+    "LOCALIZADO_EM": 30,
+    "BASEADO_EM": 19,
+    "ORIENTOU": 4
+  },
+  "exemplos_de_fusao": {
+    "Máquina Analítica": [
+      "máquina analítica"
+    ],
+    "Alan Kay": [
+      "Alan Curtis Kay",
+      "Kay"
+    ],
+    "Xerox Palo Alto Research Center (PARC)": [
+      "PARC",
+      "Xerox PARC"
+    ],
+    "impressora a laser": [
+      "impressora laser"
+    ],
+    "Alan Turing": [
+      "Alan Mathison Turing",
+      "Turing"
+    ],
+    "Máquina de Turing": [
+      "máquina de Turing"
+    ],
+    "Sir John Dermot Turing": [
+      "John Turing"
+    ],
+    "John von Neumann": [
+      "John Von Neumann"
+    ],
+    "Máquina de Turing universal": [
+      "Máquina Universal de Turing"
+    ],
+    "John Mauchly": [
+      "Mauchly"
+    ],
+    "Bell Labs": [
+      "Bell Telephone Laboratories",
+      "Bell Telephone Laboratories, Inc.",
+      "Laboratórios Bell",
+      "laboratórios Bell"
+    ],
+    "Unix": [
+      "UNIX"
+    ],
+    "Washington, D.C.": [
+      "Washington D.C"
+    ],
+    "GC & CS": [
+      "GC&CS (Government Code and Cypher School)"
+    ],
+    "Alastair Denniston": [
+      "Denniston"
+    ],
+    "Gordon Welchman": [
+      "Welchman"
+    ],
+    "Hugh Alexander": [
+      "Alexander"
+    ],
+    "Organização Internacional para Padronização (ISO)": [
+      "Organização Internacional para Padronização"
+    ],
+    "Dennis Ritchie": [
+      "Ritchie"
+    ],
+    "Assembly": [
+      "assembly"
+    ],
+    "Ken Thompson": [
+      "Kenneth Thompson",
+      "Thompson"
+    ],
+    "Claude Shannon": [
+      "Claude Elwood Shannon",
+      "Shannon"
+    ],
+    "MIT": [
+      "Instituto de Tecnologia de Massachusetts"
+    ],
+    "Association for Computing Machinery (ACM)": [
+      "Association for Computing Machinery"
+    ],
+    "Donald Ervin Knuth": [
+      "Knuth"
+    ],
+    "Universidade de Stanford": [
+      "Stanford",
+      "Universidade Stanford"
+    ],
+    "World Wide Web": [
+      "WEB",
+      "Web",
+      "WorldWideWeb"
+    ],
+    "Univac": [
+      "UNIVAC"
+    ],
+    "Edsger Dijkstra": [
+      "Dijkstra",
+      "Edsger W. Dijkstra",
+      "Edsger Wybe Dijkstra"
+    ],
+    "Grace Hopper": [
+      "Grace Murray Hopper"
+    ],
+    "Sistema A-0": [
+      "A-0"
+    ],
+    "John McCarthy": [
+      "McCarthy"
+    ],
+    "MacLisp": [
+      "MACLISP"
+    ],
+    "Interlisp": [
+      "InterLisp"
+    ],
+    "Marvin Minsky": [
+      "Marvin Lee Minsky"
+    ],
+    "Tim Berners-Lee": [
+      "Timothy John Berners-Lee"
+    ]
+  }
+}

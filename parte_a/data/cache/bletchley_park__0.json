@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {
+      "name": "Bletchley Park",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Government Code and Cypher School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "bombe",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Sir Hugh Sinclair",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "CRIOU",
+      "target": "bombe",
+      "evidence": "Alan Turing desenvolveu o computador conhecido como bombe."
+    },
+    {
+      "source": "Alan Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley Park",
+      "evidence": "Em Bletchley Park o matemático inglês Alan Turing desenvolveu a sua atividade de criptoanalista."
+    }
+  ],
+  "chunk_id": "bletchley_park#0"
+}

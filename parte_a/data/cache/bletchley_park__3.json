@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "Derek Taunt",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jack Good",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bill Tutte",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Max Newman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Harry Hinsley",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hugh Alexander",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Stuart Milner-Barry",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Joan Clarke",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bletchley",
+      "label": "Instituicao"
+    },
+    {
+      "name": "GC & CS",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Winston Churchill",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Denniston",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Welchman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Alexander",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Tiltman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Inter-Service Special Intelligence School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Buckingham",
+      "label": "Local"
+    },
+    {
+      "name": "Bedford",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Joan Clarke",
+      "type": "TRABALHOU_EM",
+      "target": "Bletchley",
+      "evidence": "Joan Clarke (eventualmente, vice-chefe da Hut 8) foi uma das poucas mulheres empregadas em Bletchley como um criptanalista de pleno direito."
+    },
+    {
+      "source": "John Tiltman",
+      "type": "CRIOU",
+      "target": "Inter-Service Special Intelligence School",
+      "evidence": "Após o treinamento inicial na Inter-Service Special Intelligence School criada por John Tiltman"
+    },
+    {
+      "source": "Inter-Service Special Intelligence School",
+      "type": "LOCALIZADO_EM",
+      "target": "Buckingham",
+      "evidence": "Inter-Service Special Intelligence School criada por John Tiltman (inicialmente em um depósito RAF em Buckingham e mais tarde em Bedford"
+    },
+    {
+      "source": "Inter-Service Special Intelligence School",
+      "type": "LOCALIZADO_EM",
+      "target": "Bedford",
+      "evidence": "Inter-Service Special Intelligence School criada por John Tiltman (inicialmente em um depósito RAF em Buckingham e mais tarde em Bedford"
+    }
+  ],
+  "chunk_id": "bletchley_park#3"
+}

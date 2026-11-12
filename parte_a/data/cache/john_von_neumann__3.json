@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "Marietta Kövesi",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Budapeste",
+      "label": "Instituicao"
+    },
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Marina",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Klára Dán",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Instituto de Estudos Avançados de Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nova Jersey",
+      "label": "Local"
+    },
+    {
+      "name": "Hermann Weyl",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Marietta Kövesi",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Budapeste",
+      "evidence": "Marietta Kövesi, que havia estudado economia na Universidade de Budapeste."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Estudos Avançados de Princeton",
+      "evidence": "Von Neumann aceitou um cargo de professor titular no Instituto de Estudos Avançados de Princeton em Nova Jersey"
+    },
+    {
+      "source": "Instituto de Estudos Avançados de Princeton",
+      "type": "LOCALIZADO_EM",
+      "target": "Nova Jersey",
+      "evidence": "Instituto de Estudos Avançados de Princeton em Nova Jersey"
+    }
+  ],
+  "chunk_id": "john_von_neumann#3"
+}

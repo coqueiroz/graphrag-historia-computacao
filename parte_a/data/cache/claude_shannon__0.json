@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "Claude Elwood Shannon",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Michigan",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Norbert Wiener",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Ronald Fisher",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Warren Weaver",
+      "label": "Pessoa"
+    },
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Claude Elwood Shannon",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Michigan",
+      "evidence": "De 1932 a 1936, estudou matemática e engenharia elétrica na Universidade de Michigan."
+    },
+    {
+      "source": "Claude Elwood Shannon",
+      "type": "INFLUENCIOU",
+      "target": "Norbert Wiener",
+      "evidence": "Neste artigo, trabalhando inclusive com as ferramentas teóricas utilizadas por Norbert Wiener, Claude Shannon propôs com sucesso uma medida de informação própria para medir incerteza sobre espaços desordenados (mais tarde complementada por Ronald Fisher, que criou uma medida alternativa de informação apropriada para medir incerteza sobre espaços ordenados)."
+    },
+    {
+      "source": "Ronald Fisher",
+      "type": "CRIOU",
+      "target": "medida alternativa de informação apropriada para medir incerteza sobre espaços ordenados",
+      "evidence": "mais tarde complementada por Ronald Fisher, que criou uma medida alternativa de informação apropriada para medir incerteza sobre espaços ordenados"
+    },
+    {
+      "source": "Claude Elwood Shannon",
+      "type": "COLABOROU_COM",
+      "target": "Warren Weaver",
+      "evidence": "Em 1949, em coautoria com o também matemático estadunidense Warren Weaver (1894-1978), publicou o livro Teoria Matemática da Comunicação"
+    },
+    {
+      "source": "Claude Elwood Shannon",
+      "type": "ESTUDOU_EM",
+      "target": "MIT",
+      "evidence": "quando, com 21 anos de idade e mestrando no  MIT, escreveu uma tese demonstrando que uma aplicação elétrica utilizando álgebra booleana poderia resolver qualquer problema de lógica."
+    }
+  ],
+  "chunk_id": "claude_shannon#0"
+}

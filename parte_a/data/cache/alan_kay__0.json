@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "Alan Curtis Kay",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Springfield",
+      "label": "Local"
+    },
+    {
+      "name": "Smalltalk",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "programação orientada a objetos",
+      "label": "Conceito"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "laptop",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "arquitetura das modernas interfaces gráficas dos computadores",
+      "label": "Conceito"
+    },
+    {
+      "name": "Universidade do Colorado",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Utah",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sketchpad",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Simula",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Seymour Papert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Laboratório de Inteligência Artificial do MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Logo",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "KiddiKomp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Laboratório de Inteligência Artificial de Stanford",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Curtis Kay",
+      "type": "CRIOU",
+      "target": "Smalltalk",
+      "evidence": "É conhecido por ter sido um dos inventores da linguagem de programação Smalltalk"
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "CRIOU",
+      "target": "programação orientada a objetos",
+      "evidence": "e um dos pais do conceito de programação orientada a objetos, que lhe valeu o Prêmio Turing em 2003."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "e um dos pais do conceito de programação orientada a objetos, que lhe valeu o Prêmio Turing em 2003."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "CRIOU",
+      "target": "laptop",
+      "evidence": "Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI)."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "CRIOU",
+      "target": "arquitetura das modernas interfaces gráficas dos computadores",
+      "evidence": "Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI)."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade do Colorado",
+      "evidence": "Graduado em matemática e biologia molecular pela Universidade do Colorado."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Utah",
+      "evidence": "Enquanto estudava na Universidade de Utah, tendo começado em 1966, aprendeu sobre o inovador programa de computador chamado Sketchpad e começou a programar em Simula."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "INFLUENCIOU",
+      "target": "Alan Curtis Kay",
+      "evidence": "Toda a concepção de Kay sobre o papel do computador na sociedade foi mexida, quando ele viu Papert e seus colegas ensinando crianças a programar em Logo."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "CRIOU",
+      "target": "KiddiKomp",
+      "evidence": "Mais tarde, em 1970, Kay projetou um dispositivo, chamado por ele de \"KiddiKomp\", que era um computador portátil barato com uma tela de CRT a fim de avaliar a computação móvel."
+    },
+    {
+      "source": "Alan Curtis Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratório de Inteligência Artificial de Stanford",
+      "evidence": "ele passou dois anos como pesquisador no Laboratório de Inteligência Artificial de Stanford."
+    }
+  ],
+  "chunk_id": "alan_kay#0"
+}

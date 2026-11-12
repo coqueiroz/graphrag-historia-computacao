@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "Universidade Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Palo Alto",
+      "label": "Local"
+    },
+    {
+      "name": "Califórnia",
+      "label": "Local"
+    },
+    {
+      "name": "Estados Unidos",
+      "label": "Local"
+    },
+    {
+      "name": "Leland Stanford",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jane Stanford",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Florença",
+      "label": "Local"
+    },
+    {
+      "name": "Itália",
+      "label": "Local"
+    },
+    {
+      "name": "Google",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Rússia",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Universidade Stanford",
+      "type": "LOCALIZADO_EM",
+      "target": "Palo Alto",
+      "evidence": "A Universidade Stanford (em inglês:  Stanford University, abreviação de Leland Stanford Junior University) é uma universidade de pesquisa privada situada em Palo Alto, Califórnia, Estados Unidos"
+    },
+    {
+      "source": "Google",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade Stanford",
+      "evidence": "Foi nessa universidade que surgiu o projeto de um sistema de busca que veio a tornar-se o atual Google."
+    }
+  ],
+  "chunk_id": "universidade_stanford#0"
+}

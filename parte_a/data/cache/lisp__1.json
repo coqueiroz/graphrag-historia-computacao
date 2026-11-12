@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Carnegie-Mellon",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Paul Graham",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Eric S. Raymond",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Lisp",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Paul Graham",
+      "type": "INFLUENCIOU",
+      "target": "Lisp",
+      "evidence": "Muitos novos programadores de Lisp foram inspirados por escritores como Paul Graham e Eric S. Raymond para buscar uma linguagem que outros consideram antiquada."
+    },
+    {
+      "source": "Eric S. Raymond",
+      "type": "INFLUENCIOU",
+      "target": "Lisp",
+      "evidence": "Muitos novos programadores de Lisp foram inspirados por escritores como Paul Graham e Eric S. Raymond para buscar uma linguagem que outros consideram antiquada."
+    }
+  ],
+  "chunk_id": "lisp#1"
+}

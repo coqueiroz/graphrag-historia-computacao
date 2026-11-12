@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "Dijkstra",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Harlan Mills",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bertrand Meyer",
+      "label": "Pessoa"
+    },
+    {
+      "name": "programação estruturada",
+      "label": "Conceito"
+    },
+    {
+      "name": "engenharia de software",
+      "label": "Conceito"
+    },
+    {
+      "name": "programação orientada a objetos",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Dijkstra",
+      "type": "CRIOU",
+      "target": "programação estruturada",
+      "evidence": "Ele cunhou a frase \"programação estruturada \"e, durante a década de 1970, essa se tornou a nova ortodoxia da programação."
+    },
+    {
+      "source": "programação estruturada",
+      "type": "INFLUENCIOU",
+      "target": "engenharia de software",
+      "evidence": "Suas idéias sobre programação estruturada ajudaram a estabelecer as bases para o nascimento e o desenvolvimento da disciplina profissional de engenharia de software , permitindo que os programadores organizassem e gerenciar projetos de software cada vez mais complexos."
+    },
+    {
+      "source": "programação estruturada",
+      "type": "INFLUENCIOU",
+      "target": "programação orientada a objetos",
+      "evidence": "A programação estruturada é a base de tudo o que foi feito desde a metodologia de programação, incluindo programação orientada a objetos ."
+    }
+  ],
+  "chunk_id": "edsger_dijkstra#1"
+}

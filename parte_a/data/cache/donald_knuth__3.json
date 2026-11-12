@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "name": "Knuth",
+      "label": "Pessoa"
+    },
+    {
+      "name": "The Art of Computer Programming",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Princeton",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Knuth",
+      "type": "TRABALHOU_EM",
+      "target": "Princeton",
+      "evidence": "Em 1969, Knuth deixou sua posição em Princeton para se juntar ao"
+    }
+  ],
+  "chunk_id": "donald_knuth#3"
+}

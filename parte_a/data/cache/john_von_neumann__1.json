@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Budapeste",
+      "label": "Local"
+    },
+    {
+      "name": "Francisco José I da Áustria",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Marghita",
+      "label": "Local"
+    },
+    {
+      "name": "Émile Borel",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Wilhelm Oncken",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Fasori Evangélikus Gimnázium",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Eugene Wigner",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gábor Szegő",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Georg Cantor",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Prêmio Eötvös",
+      "label": "Premio"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "Fasori Evangélikus Gimnázium",
+      "evidence": "Von Neumann ingressou no Fasori Evangélikus Gimnázium luterano em 1914."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "RECEBEU",
+      "target": "Prêmio Eötvös",
+      "evidence": "Ao concluir a sua educação no ginásio, ele se candidatou e ganhou o Prêmio Eötvös, um prêmio nacional de matemática."
+    }
+  ],
+  "chunk_id": "john_von_neumann#1"
+}

@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {"doc_id": "doc:alan_turing", "title": "Alan Turing", "url": "https://pt.wikipedia.org/wiki/Alan_Turing"}
+  ],
+  "chunks": [
+    {"chunk_id": "doc:alan_turing#0", "doc_id": "doc:alan_turing", "position": 0,
+     "text": "Alan Turing estudou no King's College, em Cambridge, e propôs a Máquina de Turing."},
+    {"chunk_id": "doc:alan_turing#1", "doc_id": "doc:alan_turing", "position": 1,
+     "text": "Turing foi orientado por Alonzo Church em Princeton. O Prêmio Turing leva seu nome."}
+  ],
+  "entities": [
+    {"id": "pessoa:alan_turing", "label": "Pessoa", "name": "Alan Turing", "aliases": ["Turing", "A. M. Turing"], "chunk_ids": ["doc:alan_turing#0", "doc:alan_turing#1"]},
+    {"id": "pessoa:alonzo_church", "label": "Pessoa", "name": "Alonzo Church", "chunk_ids": ["doc:alan_turing#1"]},
+    {"id": "instituicao:kings_college", "label": "Instituicao", "name": "King's College", "aliases": ["King's College, Cambridge"], "chunk_ids": ["doc:alan_turing#0"]},
+    {"id": "instituicao:princeton", "label": "Instituicao", "name": "Universidade de Princeton", "aliases": ["Princeton"], "chunk_ids": ["doc:alan_turing#1"]},
+    {"id": "local:cambridge", "label": "Local", "name": "Cambridge", "chunk_ids": ["doc:alan_turing#0"]},
+    {"id": "conceito:maquina_de_turing", "label": "Conceito", "name": "Máquina de Turing", "chunk_ids": ["doc:alan_turing#0"]},
+    {"id": "premio:premio_turing", "label": "Premio", "name": "Prêmio Turing", "aliases": ["Turing Award"], "chunk_ids": ["doc:alan_turing#1"]},
+    {"id": "x:invalido", "label": "Animal", "name": "Label inválido (deve ser descartado)"}
+  ],
+  "relations": [
+    {"source_id": "pessoa:alan_turing", "target_id": "instituicao:kings_college", "type": "ESTUDOU_EM", "evidence": "Alan Turing estudou no King's College", "chunk_id": "doc:alan_turing#0"},
+    {"source_id": "instituicao:kings_college", "target_id": "local:cambridge", "type": "LOCALIZADO_EM", "evidence": "King's College, em Cambridge", "chunk_id": "doc:alan_turing#0"},
+    {"source_id": "pessoa:alan_turing", "target_id": "conceito:maquina_de_turing", "type": "CRIOU", "evidence": "propôs a Máquina de Turing", "chunk_id": "doc:alan_turing#0"},
+    {"source_id": "pessoa:alonzo_church", "target_id": "pessoa:alan_turing", "type": "ORIENTOU", "evidence": "Turing foi orientado por Alonzo Church", "chunk_id": "doc:alan_turing#1"},
+    {"source_id": "pessoa:alan_turing", "target_id": "instituicao:princeton", "type": "ESTUDOU_EM", "evidence": "orientado por Alonzo Church em Princeton", "chunk_id": "doc:alan_turing#1"},
+    {"source_id": "pessoa:alan_turing", "target_id": "premio:premio_turing", "type": "RECEBEU", "evidence": "O Prêmio Turing leva seu nome", "chunk_id": "doc:alan_turing#1"},
+    {"source_id": "local:cambridge", "target_id": "pessoa:alan_turing", "type": "ORIENTOU", "evidence": "fora do schema (deve ser descartada)", "chunk_id": "doc:alan_turing#0"},
+    {"source_id": "pessoa:alan_turing", "target_id": "pessoa:fantasma", "type": "COLABOROU_COM", "evidence": "id inexistente (deve ser descartada)", "chunk_id": "doc:alan_turing#0"}
+  ]
+}

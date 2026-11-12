@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "Alexander Melville Bell",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Volta Bureau",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Washington, D.C.",
+      "label": "Local"
+    },
+    {
+      "name": "Alexander Graham Bell",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Thomas Sanders",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gardiner Hubbard",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Bell Patent Association",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bell Telephone Company",
+      "label": "Instituicao"
+    },
+    {
+      "name": "American Bell Telephone Company",
+      "label": "Instituicao"
+    },
+    {
+      "name": "American Telephone and Telegraph Company",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bell System",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Western Electric",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Montauk",
+      "label": "Local"
+    },
+    {
+      "name": "Long Island",
+      "label": "Local"
+    },
+    {
+      "name": "Arlington",
+      "label": "Local"
+    },
+    {
+      "name": "Virgínia",
+      "label": "Local"
+    },
+    {
+      "name": "Cliffwood",
+      "label": "Local"
+    },
+    {
+      "name": "Aberdeen",
+      "label": "Local"
+    },
+    {
+      "name": "Nova Jérsei",
+      "label": "Local"
+    },
+    {
+      "name": "Phoenixville",
+      "label": "Local"
+    },
+    {
+      "name": "Pensilvânia",
+      "label": "Local"
+    },
+    {
+      "name": "Bell Telephone Laboratories, Inc.",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Volta Bureau",
+      "type": "LOCALIZADO_EM",
+      "target": "Washington, D.C.",
+      "evidence": "Esse trabalho levou à criação do Volta Bureau, por volta de 1887, na casa de seu pai, o linguista Alexander Melville Bell, em Washington, D.C."
+    },
+    {
+      "source": "Bell Patent Association",
+      "type": "CRIOU",
+      "target": "Bell Telephone Company",
+      "evidence": "A Bell Telephone Company, a primeira empresa de telefonia, foi criada no ano seguinte."
+    },
+    {
+      "source": "American Telephone and Telegraph Company",
+      "type": "INFLUENCIOU",
+      "target": "Bell System",
+      "evidence": "Em 1899, a American Telephone and Telegraph Company e sua subsidiária já controlavam a American Bell e o Bell System."
+    },
+    {
+      "source": "American Bell Telephone Company",
+      "type": "INFLUENCIOU",
+      "target": "Western Electric",
+      "evidence": "A American Bell detinha o controle da Western Electric, responsável pela fabricação de equipamentos."
+    }
+  ],
+  "chunk_id": "bell_labs#1"
+}

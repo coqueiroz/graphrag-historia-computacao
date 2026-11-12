@@ -1,0 +1,7 @@
+# Parte C — dependências ADICIONAIS às da Parte B.
+# Instalar:  pip install -r parte_c/requirements.txt   (já inclui parte_b/requirements.txt)
+-r ../parte_b/requirements.txt
+httpx>=0.27         # comunicação com o Ollama (provedor de LLM principal, local e gratuito)
+
+# Opcional — só se for usar o Claude (pago) com LLM_PROVIDER=anthropic:
+#   pip install "anthropic>=2.8"

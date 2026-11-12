@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "Charles Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Augusta Ada King",
+      "label": "Pessoa"
+    },
+    {
+      "name": "computador programável",
+      "label": "Conceito"
+    },
+    {
+      "name": "máquina analítica",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Museu de Ciência de Londres",
+      "label": "Instituicao"
+    },
+    {
+      "name": "máquina diferencial 2",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Inglaterra",
+      "label": "Local"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    },
+    {
+      "name": "Benjamin Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Betsy Plumleigh Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "King Edward VI Community College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Stephen Freeman",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Charles Babbage",
+      "type": "CRIOU",
+      "target": "computador programável",
+      "evidence": "Charles Babbage (...) originou o conceito de um computador programável junto à Condessa de Lovelace, Augusta Ada King."
+    },
+    {
+      "source": "Augusta Ada King",
+      "type": "CRIOU",
+      "target": "computador programável",
+      "evidence": "Charles Babbage (...) originou o conceito de um computador programável junto à Condessa de Lovelace, Augusta Ada King."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "CRIOU",
+      "target": "máquina analítica",
+      "evidence": "Charles Babbage é mais conhecido e, de certa forma, referenciado como o inventor que projetou o primeiro computador de uso geral, utilizando apenas partes mecânicas, a máquina analítica."
+    },
+    {
+      "source": "Museu de Ciência de Londres",
+      "type": "LOCALIZADO_EM",
+      "target": "Londres",
+      "evidence": "Mais recentemente, entre 1985 e 1991, o Museu de Ciência de Londres construiu outra de suas invenções inacabadas, a máquina diferencial 2, usando apenas técnicas disponíveis na época de Babbage."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "ESTUDOU_EM",
+      "target": "King Edward VI Community College",
+      "evidence": "Por um tempo curto ele frequentou o King Edward VI Community College em Totnes, South Devon, mas sua saúde forçou ele de volta para professores particulares por um tempo."
+    }
+  ],
+  "chunk_id": "charles_babbage#0"
+}

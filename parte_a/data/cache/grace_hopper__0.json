@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "Grace Murray Hopper",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Marinha dos Estados Unidos",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Flow-Matic",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "COBOL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Harvard Mark I",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Yale",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Faculdade Vassar",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Navy Reserves",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Howard H. Aiken",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Eckert-Mauchly Computer Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "UNIVAC I",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Sistema A-0",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Pentágono",
+      "label": "Local"
+    },
+    {
+      "name": "William Selden",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gertrude Tierney",
+      "label": "Pessoa"
+    },
+    {
+      "name": "IBM",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Howard Bromberg",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Howard Discount",
+      "label": "Pessoa"
+    },
+    {
+      "name": "RCA",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Vernon Reeves",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jean E. Sammet",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Sylvania Electric Products",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Thomas Edison",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Grace Murray Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Marinha dos Estados Unidos",
+      "evidence": "Grace Murray Hopper (...) foi almirante e analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950"
+    },
+    {
+      "source": "Grace Murray Hopper",
+      "type": "CRIOU",
+      "target": "Flow-Matic",
+      "evidence": "criadora da linguagem de programação de alto nível Flow-Matic"
+    },
+    {
+      "source": "COBOL",
+      "type": "BASEADO_EM",
+      "target": "Flow-Matic",
+      "evidence": "base para a criação do COBOL"
+    },
+    {
+      "source": "Grace Murray Hopper",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Yale",
+      "evidence": "Hopper conquistou o Ph.D. em matemática na Universidade de Yale"
+    },
+    {
+      "source": "Grace Murray Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Faculdade Vassar",
+      "evidence": "foi professora de matemática na Faculdade Vassar."
+    },
+    {
+      "source": "Grace Murray Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Navy Reserves",
+      "evidence": "entrou na Navy Reserves (em tradução livre, a Reserva da Marinha)."
+    },
+    {
+      "source": "Grace Murray Hopper",
+      "type": "TRABALHOU_EM",
+      "target": "Eckert-Mauchly Computer Corporation",
+      "evidence": "ela passou a participar do Eckert-Mauchly Computer Corporation"
+    },
+    {
+      "source": "UNIVAC I",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Eckert-Mauchly Computer Corporation",
+      "evidence": "fez parte do time que desenvolveu o computador UNIVAC I."
+    },
+    {
+      "source": "Sistema A-0",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Eckert-Mauchly Computer Corporation",
+      "evidence": "Enquanto estava no Eckert-Mauchly, começou o desenvolvimento do seu compilador. O programa dela convertia termos em Inglês para código de máquina e em 1952, tinha terminado o desenvolvimento do seu programa ligador (originalmente chamado de compilador), o qual foi desenvolvido para o Sistema A-0."
+    },
+    {
+      "source": "William Selden",
+      "type": "TRABALHOU_EM",
+      "target": "IBM",
+      "evidence": "William Selden e Gertrude Tierney da IBM"
+    },
+    {
+      "source": "Gertrude Tierney",
+      "type": "TRABALHOU_EM",
+      "target": "IBM",
+      "evidence": "William Selden e Gertrude Tierney da IBM"
+    },
+    {
+      "source": "Howard Bromberg",
+      "type": "TRABALHOU_EM",
+      "target": "RCA",
+      "evidence": "Howard Bromberg e Howard Discount da RCA"
+    },
+    {
+      "source": "Howard Discount",
+      "type": "TRABALHOU_EM",
+      "target": "RCA",
+      "evidence": "Howard Bromberg e Howard Discount da RCA"
+    },
+    {
+      "source": "Vernon Reeves",
+      "type": "TRABALHOU_EM",
+      "target": "Sylvania Electric Products",
+      "evidence": "Vernon Reeves e Jean E. Sammet da Sylvania Electric Products."
+    },
+    {
+      "source": "Jean E. Sammet",
+      "type": "TRABALHOU_EM",
+      "target": "Sylvania Electric Products",
+      "evidence": "Vernon Reeves e Jean E. Sammet da Sylvania Electric Products."
+    }
+  ],
+  "chunk_id": "grace_hopper#0"
+}

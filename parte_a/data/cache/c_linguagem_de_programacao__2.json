@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Windows",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Microsoft",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Unix",
+      "label": "Conceito"
+    },
+    {
+      "name": "ANSI",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ANSI C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Organização Internacional para Padronização (ISO)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "C89",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C90",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "K&R C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C99",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "c_linguagem_de_programacao#2"
+}

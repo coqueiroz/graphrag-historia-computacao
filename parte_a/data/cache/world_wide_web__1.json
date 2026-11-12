@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "Uniform Resource Identifier",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HyperCard",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "World Wide Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "CERN",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Gopher",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ViolaWWW",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Mosaic",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Illinois em Urbana-Champaign",
+      "label": "Instituicao"
+    },
+    {
+      "name": "World Wide Web Consortium",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "URL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Domain Name System",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HTML",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ViolaWWW",
+      "type": "BASEADO_EM",
+      "target": "HyperCard",
+      "evidence": "Um antigo navegador popular era o ViolaWWW, que era baseado no HyperCard."
+    },
+    {
+      "source": "Mosaic",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade de Illinois em Urbana-Champaign",
+      "evidence": "Considera-se que a grande virada da WWW começou com a introdução do navegador Mosaic em 1993, um navegador gráfico desenvolvido por uma equipe de desenvolvedores universitários da Universidade de Illinois em Urbana-Champaign."
+    },
+    {
+      "source": "Tim Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "CERN",
+      "evidence": "A World Wide Web Consortium (W3C) foi fundada em outubro de 1994, após Tim Berners-Lee sair do instituto CERN."
+    }
+  ],
+  "chunk_id": "world_wide_web#1"
+}

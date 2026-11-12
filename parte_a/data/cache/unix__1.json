@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "BSD",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Berkeley",
+      "label": "Instituicao"
+    },
+    {
+      "name": "System III",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "System V",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "AT&T",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Peter Weiner",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Yale",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Interactive System Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Interdata 8/32",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "PDP",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Digital Equipament Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "POSIX",
+      "label": "Conceito"
+    },
+    {
+      "name": "Darwin",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Mach BSD",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Mac OS X",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Thompson",
+      "type": "CRIOU",
+      "target": "B",
+      "evidence": "linguagem B, desenvolvida por Thompson."
+    },
+    {
+      "source": "BSD",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade de Berkeley",
+      "evidence": "os sistemas BSD (na Universidade de Berkeley na Califórnia)"
+    },
+    {
+      "source": "System III",
+      "type": "DESENVOLVIDO_EM",
+      "target": "AT&T",
+      "evidence": "os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    },
+    {
+      "source": "System V",
+      "type": "DESENVOLVIDO_EM",
+      "target": "AT&T",
+      "evidence": "os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    },
+    {
+      "source": "Peter Weiner",
+      "type": "TRABALHOU_EM",
+      "target": "Yale",
+      "evidence": "Peter Weiner - cientista de Yale"
+    },
+    {
+      "source": "Peter Weiner",
+      "type": "TRABALHOU_EM",
+      "target": "Interactive System Corporation",
+      "evidence": "fundador da Interactive System Corporation."
+    },
+    {
+      "source": "PDP",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Digital Equipament Corporation",
+      "evidence": "O Unix saía da linha das máquinas PDP, da Digital Equipament Corporation (DEC)"
+    },
+    {
+      "source": "Mac OS X",
+      "type": "BASEADO_EM",
+      "target": "Darwin",
+      "evidence": "Mac OS X (baseado em um núcleo Mach BSD chamado Darwin)."
+    },
+    {
+      "source": "Darwin",
+      "type": "BASEADO_EM",
+      "target": "Mach BSD",
+      "evidence": "Mac OS X (baseado em um núcleo Mach BSD chamado Darwin)."
+    }
+  ],
+  "chunk_id": "unix#1"
+}

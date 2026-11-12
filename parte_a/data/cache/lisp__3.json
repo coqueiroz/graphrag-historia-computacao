@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "McCarthy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "LISP 1.5",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Stanford LISP 1.6",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Laboratório de IA de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "MACLISP",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Projeto MAC",
+      "label": "Instituicao"
+    },
+    {
+      "name": "LISP 1.5",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "InterLisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "BBN Technologies",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Franz Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade da Califórnia, Berkeley",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Franz Inc.",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Lisp",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "LISP 1.5",
+      "type": "DESENVOLVIDO_EM",
+      "target": "MIT",
+      "evidence": "LISP 1.5 – Primeira versão amplamente distribuída, desenvolvida por McCarthy e outros do MIT."
+    },
+    {
+      "source": "Stanford LISP 1.6",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Laboratório de IA de Stanford",
+      "evidence": "Stanford LISP 1.6 – Este foi uma sucessora para o LISP 1.5 desenvolvida no Laboratório de IA de Stanford, e amplamente distribuída para sistemas PDP-10 rodando o sistema operacional TOPS-10."
+    },
+    {
+      "source": "MACLISP",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Projeto MAC",
+      "evidence": "MACLISP – Desenvolvido para o Projeto MAC do MIT (Não tem relaçãocom o Macintosh da Apple, nem com McCarthy), descendente direto do LISP 1.5."
+    },
+    {
+      "source": "InterLisp",
+      "type": "DESENVOLVIDO_EM",
+      "target": "BBN Technologies",
+      "evidence": "InterLisp – desenvolvido na BBN Technologies para sistemas PDP-10 rodando o sistema operacional Tenex, mais tarde usado como Lisp \"da costa oeste\" para as máquinas Xerox Lisp como InterLisp-D Umaversão menor chamada \"InterLISP 65\" foi produzida para a linha base de computadores 6502 da Família Atari de 8 bits."
+    },
+    {
+      "source": "Franz Lisp",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade da Califórnia, Berkeley",
+      "evidence": "Franz Lisp – originalmente um projeto da Universidade da Califórnia, Berkeleyt; mais tarde desenvolvido por Franz Inc."
+    },
+    {
+      "source": "Franz Lisp",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Franz Inc.",
+      "evidence": "Franz Lisp – originalmente um projeto da Universidade da Califórnia, Berkeleyt; mais tarde desenvolvido por Franz Inc."
+    }
+  ],
+  "chunk_id": "lisp#3"
+}

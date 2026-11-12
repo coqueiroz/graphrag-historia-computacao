@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cambridge",
+      "label": "Local"
+    },
+    {
+      "name": "William Barton Rogers",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Vannevar Bush",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Apollo Guidance Computer",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Instituto de Tecnologia de Massachusetts",
+      "type": "LOCALIZADO_EM",
+      "target": "Cambridge",
+      "evidence": "Está localizada na cidade de Cambridge, no estado de Massachusetts."
+    },
+    {
+      "source": "William Barton Rogers",
+      "type": "CRIOU",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "William Barton Rogers fundou o Instituto de Tecnologia de Massachusetts para acelerar a industrialização dos Estados Unidos por meio do conhecimento científico."
+    },
+    {
+      "source": "Vannevar Bush",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "as matrículas na pós-graduação e o financiamento à pesquisa cresceram rapidamente nas décadas do pós-guerra, à medida que docentes como Vannevar Bush ajudaram a moldar o apoio federal à ciência básica."
+    },
+    {
+      "source": "Apollo Guidance Computer",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "No fim do século XX, o Instituto de Tecnologia de Massachusetts tornou-se estreitamente associado à ciência da computação, à inteligência artificial, à biotecnologia, ao desenvolvimento de software de código aberto e a iniciativas de \"big science\", como o Apollo Guidance Computer e o projeto LIGO."
+    }
+  ],
+  "chunk_id": "instituto_de_tecnologia_de_massachusetts#0"
+}

@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "Claude Shannon",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Instituto Nacional de Estudos Avançados",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Princeton",
+      "label": "Local"
+    },
+    {
+      "name": "Hermann Weyl",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Albert Einstein",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Teoria da Informação",
+      "label": "Conceito"
+    },
+    {
+      "name": "Bell Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Máquina Universal de Turing",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ralph Beebe Blackman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hendrik Wade Bode",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Claude Shannon",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto Nacional de Estudos Avançados",
+      "evidence": "Em 1940, Shannon se tornou pesquisador do Instituto nacional de Estudos Avançados em Princeton, Nova Jérsia."
+    },
+    {
+      "source": "Instituto Nacional de Estudos Avançados",
+      "type": "LOCALIZADO_EM",
+      "target": "Princeton",
+      "evidence": "Em 1940, Shannon se tornou pesquisador do Instituto nacional de Estudos Avançados em Princeton, Nova Jérsia."
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "COLABOROU_COM",
+      "target": "Hermann Weyl",
+      "evidence": "Em Princeton, Shannon teve a oportunidade de discutir suas ideias com cientistas e matemáticos influentes como Hermann Weyl e John von Neumann"
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "COLABOROU_COM",
+      "target": "John von Neumann",
+      "evidence": "Em Princeton, Shannon teve a oportunidade de discutir suas ideias com cientistas e matemáticos influentes como Hermann Weyl e John von Neumann"
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "CRIOU",
+      "target": "Teoria da Informação",
+      "evidence": "Shannon trabalhou livremente em todas as áreas, e começou a moldar as ideias que se tornariam a teoria da informação."
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "TRABALHOU_EM",
+      "target": "Bell Labs",
+      "evidence": "Shannon em seguida juntou-se à Bell Labs para trabalhar em sistemas de controle de fogo e criptografia durante a Segunda Guerra Mundial"
+    },
+    {
+      "source": "Claude Shannon",
+      "type": "COLABOROU_COM",
+      "target": "Alan Turing",
+      "evidence": "Durante dois meses no início de 1943, Shannon entrou em contato como o criptoanalista líder e matemático britânico Alan Turing."
+    },
+    {
+      "source": "Alan Turing",
+      "type": "CRIOU",
+      "target": "Máquina Universal de Turing",
+      "evidence": "Turing mostrou a Shannon seu artigo que definiu o que hoje é conhecido como a \"Máquina Universal de Turing\"."
+    },
+    {
+      "source": "Alan Turing",
+      "type": "TRABALHOU_EM",
+      "target": "Bell Labs",
+      "evidence": "Ele também ficou interessado em cifragem de fala e para isso ficou um tempo no Bell Labs."
+    }
+  ],
+  "chunk_id": "claude_shannon#2"
+}

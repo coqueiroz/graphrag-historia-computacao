@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "GC&CS (Government Code and Cypher School)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "SIS",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bletchley Park",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Oxford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cambridge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    },
+    {
+      "name": "Birmingham",
+      "label": "Local"
+    },
+    {
+      "name": "Manchester",
+      "label": "Local"
+    },
+    {
+      "name": "Liverpool",
+      "label": "Local"
+    },
+    {
+      "name": "Glasgow",
+      "label": "Local"
+    },
+    {
+      "name": "Edimburgo",
+      "label": "Local"
+    },
+    {
+      "name": "Inglaterra",
+      "label": "Local"
+    },
+    {
+      "name": "Alemanha",
+      "label": "Local"
+    },
+    {
+      "name": "Winston Churchill",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Jock Colville",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Cairncross",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "bletchley_park#1"
+}

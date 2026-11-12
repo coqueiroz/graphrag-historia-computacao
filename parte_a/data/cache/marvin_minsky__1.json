@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "Seymour Papert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Marvin Minsky",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Logo",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "SNARC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Perceptrons",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "A framework for representing knowledge",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Laboratório de Inteligência Artificial do MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "A Sociedade da Mente",
+      "label": "Conceito"
+    },
+    {
+      "name": "The Society of Mind",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "The Emotion Machine",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmio Japão",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmio IJCAI por Excelência em Pesquisa",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Benjamin Franklin do Instituto Franklin",
+      "label": "Premio"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "Logo",
+      "evidence": "Ele desenvolveu, com Seymour Papert, a primeira \"turtle\" Logo."
+    },
+    {
+      "source": "Seymour Papert",
+      "type": "CRIOU",
+      "target": "Logo",
+      "evidence": "Ele desenvolveu, com Seymour Papert, a primeira \"turtle\" Logo."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "SNARC",
+      "evidence": "Minsky também construiu, em 1951, a primeira máquina de aprendizado com rede neural de fiação aleatória, SNARC."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "Perceptrons",
+      "evidence": "Minsky escreveu o livro Perceptrons (com Seymour Papert), que se tornou um trabalho fundamental para a análise de redes neurais artificiais."
+    },
+    {
+      "source": "Seymour Papert",
+      "type": "CRIOU",
+      "target": "Perceptrons",
+      "evidence": "Minsky escreveu o livro Perceptrons (com Seymour Papert), que se tornou um trabalho fundamental para a análise de redes neurais artificiais."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "A framework for representing knowledge",
+      "evidence": "Seu livro \"A framework for representing knowledge\" (sem versão em português) criou um novo paradigma de programação."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "A Sociedade da Mente",
+      "evidence": "No começo dos anos 70 no Laboratório de Inteligência Artificial do MIT, Minsky e Papert começaram a desenvolver o que veio a ser chamado a teoria d'A Sociedade da Mente."
+    },
+    {
+      "source": "Seymour Papert",
+      "type": "CRIOU",
+      "target": "A Sociedade da Mente",
+      "evidence": "No começo dos anos 70 no Laboratório de Inteligência Artificial do MIT, Minsky e Papert começaram a desenvolver o que veio a ser chamado a teoria d'A Sociedade da Mente."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "The Society of Mind",
+      "evidence": "Em 1986, Minsky publicou The Society of Mind, um livro compreensivo da teoria o qual, diferentemente da maior parte de seu trabalho publicado previamente, foi escrito para uma audiência mais geral."
+    },
+    {
+      "source": "Marvin Minsky",
+      "type": "CRIOU",
+      "target": "The Emotion Machine",
+      "evidence": "Em Novembro de 2006, Minsky publicou The Emotion Machine, um livro que critica diversas teorias populares de como mentes humanas funcionam e sugere teorias alternativas, geralmente substituindo ideias simples com algumas mais complexas."
+    }
+  ],
+  "chunk_id": "marvin_minsky#1"
+}

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "Knuth",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Burroughs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "FORTRAN",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Univac",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ALGOL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "DEFINE",
+      "label": "Conceito"
+    },
+    {
+      "name": "Burroughs ALGOL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Edsger Dijkstra",
+      "label": "Pessoa"
+    },
+    {
+      "name": "SOL 'Simulation Oriented Language'",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "J. McNeeley",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Simula",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Addison-Wesley",
+      "label": "Instituicao"
+    },
+    {
+      "name": "The Art of Computer Programming",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Caltech",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Institute for Defense Analyses",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Princeton",
+      "label": "Local"
+    },
+    {
+      "name": "Agência de Segurança Nacional",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Society for Industrial and Applied Mathematics",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Knuth",
+      "type": "TRABALHOU_EM",
+      "target": "Burroughs",
+      "evidence": "Após se formar, Knuth retornou à Burroughs em junho de 1961"
+    },
+    {
+      "source": "Knuth",
+      "type": "CRIOU",
+      "target": "FORTRAN",
+      "evidence": "No verão de 1962, ele escreveu um compilador FORTRAN para a Univac"
+    },
+    {
+      "source": "DEFINE",
+      "type": "BASEADO_EM",
+      "target": "ALGOL",
+      "evidence": "Isso se tornou a base do DEFINE no Burroughs ALGOL"
+    },
+    {
+      "source": "SOL 'Simulation Oriented Language'",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Burroughs",
+      "evidence": "Knuth trabalhou em linguagens de simulação na Burroughs, produzindo SOL 'Simulation Oriented Language' ('Linguagem Orientada a Simulação'), uma melhoria em relação ao estado da arte, co-projetada com J. McNeeley."
+    },
+    {
+      "source": "Knuth",
+      "type": "COLABOROU_COM",
+      "target": "J. McNeeley",
+      "evidence": "produzindo SOL 'Simulation Oriented Language' ('Linguagem Orientada a Simulação'), uma melhoria em relação ao estado da arte, co-projetada com J. McNeeley."
+    },
+    {
+      "source": "Knuth",
+      "type": "INFLUENCIOU",
+      "target": "Burroughs",
+      "evidence": "Knuth influenciou a Burroughs a usar Simula."
+    },
+    {
+      "source": "Institute for Defense Analyses",
+      "type": "LOCALIZADO_EM",
+      "target": "Princeton",
+      "evidence": "Divisão de Pesquisa em Comunicações do Institute for Defense Analyses, então situada no campus da Princeton"
+    }
+  ],
+  "chunk_id": "donald_knuth#2"
+}

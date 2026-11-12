@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "name": "Timothy John Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    },
+    {
+      "name": "World Wide Web",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HTML",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "HTTP",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Oxford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "W3C",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Rosemary Leith",
+      "label": "Pessoa"
+    },
+    {
+      "name": "World Wide Web Foundation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Web Science Research Initiative",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Centro de Inteligência Coletiva do MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Fundação Ford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Open Data Institute",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Mary Lee Woods",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Conway Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Birmingham",
+      "label": "Local"
+    },
+    {
+      "name": "Mike Berners-Lee",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Lancaster",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sheen Mount",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Emanuel School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "The Queen's College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Plessey",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Poole",
+      "label": "Local"
+    },
+    {
+      "name": "D. G. Nash",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Ferndown",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "CRIOU",
+      "target": "World Wide Web",
+      "evidence": "Sir Timothy John Berners-Lee (Londres, 8 de junho de 1955), também chamado TimBL, é um cientista da computação inglês que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "CRIOU",
+      "target": "HTML",
+      "evidence": "Sir Timothy John Berners-Lee (Londres, 8 de junho de 1955), também chamado TimBL, é um cientista da computação inglês que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "CRIOU",
+      "target": "HTTP",
+      "evidence": "Sir Timothy John Berners-Lee (Londres, 8 de junho de 1955), também chamado TimBL, é um cientista da computação inglês que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Oxford",
+      "evidence": "É professor emérito da Universidade de Oxford e do Instituto de Tecnologia de Massachusetts (MIT)."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Instituto de Tecnologia de Massachusetts",
+      "evidence": "É professor emérito da Universidade de Oxford e do Instituto de Tecnologia de Massachusetts (MIT)."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "W3C",
+      "evidence": "Fundou o W3C, organização que acompanha o desenvolvimento da Web, da qual é diretor emérito."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "COLABOROU_COM",
+      "target": "Rosemary Leith",
+      "evidence": "Com Rosemary Leith, cofundou a World Wide Web Foundation."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+      "evidence": "Foi pesquisador sênior e ocupou a cátedra de fundadores da 3Com no Laboratório de Ciência da Computação e Inteligência Artificial do MIT (CSAIL)."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Web Science Research Initiative",
+      "evidence": "Foi um dos diretores fundadores da Web Science Research Initiative (WSRI) e publicou estudos sobre a ciência da Web."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Centro de Inteligência Coletiva do MIT",
+      "evidence": "Integrou o conselho consultivo do Centro de Inteligência Coletiva do MIT."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Fundação Ford",
+      "evidence": "Em 2011, passou a integrar o conselho de administração da Fundação Ford."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Open Data Institute",
+      "evidence": "Fundou o Open Data Institute, do qual é presidente, e atuou como consultor da rede social MeWe."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Ganhou o Prêmio Turing de 2016 pela criação da World Wide Web, do primeiro navegador e dos protocolos e algoritmos fundamentais que permitiram sua expansão."
+    },
+    {
+      "source": "Mike Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Lancaster",
+      "evidence": "Um deles, Mike Berners-Lee, é professor na Universidade de Lancaster e pesquisa sustentabilidade, métricas de carbono e mudança do clima."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "ESTUDOU_EM",
+      "target": "Sheen Mount",
+      "evidence": "Estudou na escola primária Sheen Mount e, entre 1969 e 1973, na Emanuel School, que à época era uma direct grant grammar school."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "ESTUDOU_EM",
+      "target": "Emanuel School",
+      "evidence": "Estudou na escola primária Sheen Mount e, entre 1969 e 1973, na Emanuel School, que à época era uma direct grant grammar school."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "ESTUDOU_EM",
+      "target": "The Queen's College",
+      "evidence": "Em 1976, formou-se em física com honras de primeira classe no The Queen's College, da Universidade de Oxford."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Oxford",
+      "evidence": "Em 1976, formou-se em física com honras de primeira classe no The Queen's College, da Universidade de Oxford."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "Plessey",
+      "evidence": "Depois da graduação, trabalhou como engenheiro na empresa de telecomunicações Plessey, em Poole, no condado de Dorset."
+    },
+    {
+      "source": "Plessey",
+      "type": "LOCALIZADO_EM",
+      "target": "Poole",
+      "evidence": "Depois da graduação, trabalhou como engenheiro na empresa de telecomunicações Plessey, em Poole, no condado de Dorset."
+    },
+    {
+      "source": "Timothy John Berners-Lee",
+      "type": "TRABALHOU_EM",
+      "target": "D. G. Nash",
+      "evidence": "Em 1978, entrou na D. G. Nash, em Ferndown, onde ajudou a desenvolver um programa de composição tipográfica para impressoras."
+    },
+    {
+      "source": "D. G. Nash",
+      "type": "LOCALIZADO_EM",
+      "target": "Ferndown",
+      "evidence": "Em 1978, entrou na D. G. Nash, em Ferndown, onde ajudou a desenvolver um programa de composição tipográfica para impressoras."
+    }
+  ],
+  "chunk_id": "tim_berners_lee#0"
+}

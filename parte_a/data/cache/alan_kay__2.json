@@ -1,0 +1,31 @@
+{
+  "entities": [
+    {
+      "name": "Alan Kay",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Applied Minds",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Hewlett-Packard",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Applied Minds",
+      "evidence": "Posteriormente, trabalhou com um time da Applied Minds"
+    },
+    {
+      "source": "Alan Kay",
+      "type": "TRABALHOU_EM",
+      "target": "Hewlett-Packard",
+      "evidence": "e então tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005."
+    }
+  ],
+  "chunk_id": "alan_kay#2"
+}

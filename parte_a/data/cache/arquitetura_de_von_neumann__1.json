@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "IAS (Princeton Institute for Advanced Studies)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "arquitetura_de_von_neumann#1"
+}

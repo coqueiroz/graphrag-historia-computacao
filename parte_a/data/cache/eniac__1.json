@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade da Pensilvânia",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "eniac#1"
+}

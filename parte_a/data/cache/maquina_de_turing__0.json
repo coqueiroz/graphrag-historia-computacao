@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "Máquina de Turing",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "CRIOU",
+      "target": "Máquina de Turing",
+      "evidence": "A Máquina de Turing é um dispositivo teórico conhecido como máquina universal, que foi concebido pelo matemático britânico Alan Turing"
+    }
+  ],
+  "chunk_id": "maquina_de_turing#0"
+}

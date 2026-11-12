@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "Dennis Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Ken Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Linux",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Richard W. Hamming",
+      "label": "Premio"
+    },
+    {
+      "name": "Instituto de Engenheiros Eletricistas e Eletrônicos",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Museu da História do Computador",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Medalha Nacional de Tecnologia e Inovação",
+      "label": "Premio"
+    },
+    {
+      "name": "Instituto de Pesquisa Industrial",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Prêmio Japão de Comunicação e Informação",
+      "label": "Premio"
+    },
+    {
+      "name": "Berkeley Heights",
+      "label": "Local"
+    },
+    {
+      "name": "Nova Jersey",
+      "label": "Local"
+    },
+    {
+      "name": "Rob Pike",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Brian Kernighan",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Ritchie e Thompson receberam o Prêmio Turing \"pelo desenvolvimento da teoria de sistemas operativos genéricos e especialmente pela sua implementação do sistema operativo UNIX\"."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Ritchie e Thompson receberam o Prêmio Turing \"pelo desenvolvimento da teoria de sistemas operativos genéricos e especialmente pela sua implementação do sistema operativo UNIX\"."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming do Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE), \"pela originação do sistema operacional UNIX e da linguagem de programação C\"."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming do Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE), \"pela originação do sistema operacional UNIX e da linguagem de programação C\"."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Em 1983, Ritchie e Thompson receberam o Prêmio Turing"
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Em 1983, Ritchie e Thompson receberam o Prêmio Turing"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Medalha Richard W. Hamming",
+      "evidence": "ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming do Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE)"
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "RECEBEU",
+      "target": "Medalha Richard W. Hamming",
+      "evidence": "ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming do Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE)"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Medalha Nacional de Tecnologia e Inovação",
+      "evidence": "Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação de 1998"
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "RECEBEU",
+      "target": "Medalha Nacional de Tecnologia e Inovação",
+      "evidence": "Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação de 1998"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Prêmio Japão de Comunicação e Informação",
+      "evidence": "Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação"
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "RECEBEU",
+      "target": "Prêmio Japão de Comunicação e Informação",
+      "evidence": "Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Ken Thompson",
+      "evidence": "Ritchie e Thompson receberam o Prêmio Turing"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Rob Pike",
+      "evidence": "A primeira notícia de sua morte veio de seu ex-colega, Rob Pike."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Brian Kernighan",
+      "evidence": "Em uma entrevista pouco após a morte de Ritchie, o colega de longa data Brian Kernighan disse que Ritchie nunca esp"
+    }
+  ],
+  "chunk_id": "dennis_ritchie#2"
+}

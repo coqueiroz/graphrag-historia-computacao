@@ -1,0 +1,10 @@
+{
+  "entities": [
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "unix#3"
+}

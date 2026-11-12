@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "Xerox Palo Alto Research Center (PARC)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Xerox Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Palo Alto",
+      "label": "Local"
+    },
+    {
+      "name": "Califórnia",
+      "label": "Local"
+    },
+    {
+      "name": "Estados Unidos",
+      "label": "Local"
+    },
+    {
+      "name": "interface gráfica dos computadores pessoais (GUI)",
+      "label": "Conceito"
+    },
+    {
+      "name": "Apple Computer",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Macintosh",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Alto",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "mouse",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "editor de texto WYSIWYG",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "InterPress",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "PostScript",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ethernet",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Smalltalk",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "impressora a laser",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Butler W. Lampson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Alan Kay",
+      "label": "Pessoa"
+    },
+    {
+      "name": "ACM Software System Award",
+      "label": "Premio"
+    },
+    {
+      "name": "Interlisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Chamada de procedimento remoto (RPC)",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Bob Taylor",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Charles P. Thacker",
+      "label": "Pessoa"
+    },
+    {
+      "name": "prêmio Charles Stark Draper",
+      "label": "Premio"
+    },
+    {
+      "name": "National Academy of Engineering",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Xerox Star",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Xerox Systems Development Department",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Apple Macintosh",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Steve Jobs",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Butler W. Lampson",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Entre os distintos pesquisadores do PARC encontravam-se dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)."
+    },
+    {
+      "source": "Alan Kay",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Entre os distintos pesquisadores do PARC encontravam-se dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)."
+    },
+    {
+      "source": "Butler W. Lampson",
+      "type": "RECEBEU",
+      "target": "prêmio Charles Stark Draper",
+      "evidence": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004 pelo seu trabalho no sistema Alto."
+    },
+    {
+      "source": "Alan Kay",
+      "type": "RECEBEU",
+      "target": "prêmio Charles Stark Draper",
+      "evidence": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004 pelo seu trabalho no sistema Alto."
+    },
+    {
+      "source": "Bob Taylor",
+      "type": "RECEBEU",
+      "target": "prêmio Charles Stark Draper",
+      "evidence": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004 pelo seu trabalho no sistema Alto."
+    },
+    {
+      "source": "Charles P. Thacker",
+      "type": "RECEBEU",
+      "target": "prêmio Charles Stark Draper",
+      "evidence": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004 pelo seu trabalho no sistema Alto."
+    },
+    {
+      "source": "InterPress",
+      "type": "BASEADO_EM",
+      "target": "PostScript",
+      "evidence": "InterPress (uma linguagem gráfica de descrição de página independente da resolução e precursora do PostScript)"
+    },
+    {
+      "source": "Xerox Star",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Xerox Systems Development Department",
+      "evidence": "depois comercializada como o Xerox Star pelo Xerox Systems Development Department."
+    }
+  ],
+  "chunk_id": "xerox_parc#0"
+}

@@ -1,0 +1,15 @@
+.env
+tools/
+__pycache__/
+.pytest_cache/
+.env.*
+!.env.example
+!.env.c.example
+*.key
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+~$*

@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "National Security Agency",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Plan 9",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Inferno",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Limbo",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "AT&T",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Lucent Technologies",
+      "label": "Instituicao"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Brian Kernighan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "The C Programming Language",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ken Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Doug McIlroy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Research Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C++",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Objective-C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Apple",
+      "label": "Instituicao"
+    },
+    {
+      "name": "C#",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Microsoft",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Java",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Android",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Linux",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Berkeley Software Distribution",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ritchie",
+      "type": "TRABALHOU_EM",
+      "target": "Lucent Technologies",
+      "evidence": "Como parte de uma reestruturação da AT&T em meados da década de 1990, Ritchie foi transferido para a Lucent Technologies, onde se aposentou em 2007 como chefe do Departamento de Pesquisa de Software de Sistema."
+    },
+    {
+      "source": "Ritchie",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "Ritchie criou a linguagem de programação C e foi um dos desenvolvedores do sistema operacional Unix."
+    },
+    {
+      "source": "Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Brian Kernighan",
+      "evidence": "Com Brian Kernighan, ele coescreveu o livro The C Programming Language, que é frequentemente referido como K&R após suas iniciais."
+    },
+    {
+      "source": "Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Ken Thompson",
+      "evidence": "Ritchie trabalhou junto com Ken Thompson, que é creditado com escrever a versão original do Unix; uma das contribuições de Ritchie para o Unix foi sua portabilidade para diferentes máquinas e plataformas."
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "C++",
+      "evidence": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java usado extensivamente em ambientes corporativos e pelo Android."
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "Objective-C",
+      "evidence": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java usado extensivamente em ambientes corporativos e pelo Android."
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "C#",
+      "evidence": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java usado extensivamente em ambientes corporativos e pelo Android."
+    },
+    {
+      "source": "C",
+      "type": "INFLUENCIOU",
+      "target": "Java",
+      "evidence": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java usado extensivamente em ambientes corporativos e pelo Android."
+    },
+    {
+      "source": "Linux",
+      "type": "BASEADO_EM",
+      "target": "Unix",
+      "evidence": "Acho o fenômeno Linux bastante delicioso, porque se baseia tão fortemente na base que o Unix forneceu."
+    },
+    {
+      "source": "Linux",
+      "type": "BASEADO_EM",
+      "target": "Berkeley Software Distribution",
+      "evidence": "O Linux parece estar entre os mais saudáveis dos derivados diretos do Unix, embora também existam os vários sistemas BSD"
+    }
+  ],
+  "chunk_id": "dennis_ritchie#1"
+}

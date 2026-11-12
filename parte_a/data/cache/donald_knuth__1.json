@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "Knuth",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Case",
+      "label": "Instituicao"
+    },
+    {
+      "name": "IBM 650",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Engineering and Science Review do Case Institute",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Burroughs Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "B205",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Caltech",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Marshall Hall",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Instituto de Tecnologia da Califórnia",
+      "label": "Instituicao"
+    },
+    {
+      "name": "B220",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Green Tree Corporation",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Univac",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Knuth",
+      "type": "ESTUDOU_EM",
+      "target": "Case",
+      "evidence": "Enquanto estudava física no Case, Knuth foi apresentado ao IBM 650, um computador comercial antigo."
+    },
+    {
+      "source": "Knuth",
+      "type": "ESTUDOU_EM",
+      "target": "Instituto de Tecnologia da Califórnia",
+      "evidence": "Em 1963, com o matemático Marshall Hall como seu orientador, ele obteve um doutorado em matemática pelo Instituto de Tecnologia da Califórnia, com uma tese intitulada Finite Semifields and Projective Planes (\"Semicorpos Finitos e Planos Projetivos\")."
+    },
+    {
+      "source": "Marshall Hall",
+      "type": "ORIENTOU",
+      "target": "Knuth",
+      "evidence": "Em 1963, com o matemático Marshall Hall como seu orientador, ele obteve um doutorado em matemática pelo Instituto de Tecnologia da Califórnia, com uma tese intitulada Finite Semifields and Projective Planes (\"Semicorpos Finitos e Planos Projetivos\")."
+    },
+    {
+      "source": "Knuth",
+      "type": "TRABALHOU_EM",
+      "target": "Caltech",
+      "evidence": "Em 1963, após receber seu doutorado, Knuth ingressou no corpo docente do Caltech como professor assistente."
+    }
+  ],
+  "chunk_id": "donald_knuth#1"
+}

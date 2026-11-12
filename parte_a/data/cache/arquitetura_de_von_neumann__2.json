@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Max Newman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Cambridge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Konrad Zuse",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Los Alamos National Laboratory",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "EDVAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Eckert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Mauchly",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Herman Goldstine",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Máquina de Turing universal",
+      "label": "Conceito"
+    },
+    {
+      "name": "Arquitetura de von Neumann",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Cambridge",
+      "evidence": "O matemático Alan Turing, que tinha sido alertado para um problema de lógica matemática pelas palestras de Max Newman na Universidade de Cambridge"
+    },
+    {
+      "source": "Alan Turing",
+      "type": "CRIOU",
+      "target": "Máquina de Turing universal",
+      "evidence": "Nela, ele descreveu uma máquina hipotética que ele chamou de \"máquina de computação universal\", e que agora é conhecida como a \"máquina de Turing universal\"."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Cambridge",
+      "evidence": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Los Alamos National Laboratory",
+      "evidence": "Von Neumann estava envolvido no Projeto Manhattan no Los Alamos National Laboratory"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "CRIOU",
+      "target": "Arquitetura de von Neumann",
+      "evidence": "O termo \"arquitetura de von Neumann\" surgiu a partir de uma publicação de von Neumann"
+    },
+    {
+      "source": "Herman Goldstine",
+      "type": "COLABOROU_COM",
+      "target": "John von Neumann",
+      "evidence": "O esboço estava inacabado quando seu colega Herman Goldstine que circulou somente com o nome de von Neumann sobre ele"
+    }
+  ],
+  "chunk_id": "arquitetura_de_von_neumann#2"
+}

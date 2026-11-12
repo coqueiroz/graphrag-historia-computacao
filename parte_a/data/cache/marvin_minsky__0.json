@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "Marvin Lee Minsky",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Nova Iorque",
+      "label": "Local"
+    },
+    {
+      "name": "Boston",
+      "label": "Local"
+    },
+    {
+      "name": "inteligência artificial",
+      "label": "Conceito"
+    },
+    {
+      "name": "Laboratório de Inteligência Artificial do Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Instituto de Tecnologia de Massachusetts",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Fieldston School",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bronx High School of Science",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Phillips Academy",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Andover",
+      "label": "Local"
+    },
+    {
+      "name": "Massachusetts",
+      "label": "Local"
+    },
+    {
+      "name": "Marinha dos Estados Unidos",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Harvard",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "John McCarthy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Isaac Asimov",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Carl Sagan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "display gráfico head-mounted",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "microscópio confocal",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Seymour Papert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "turtle",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "SNARC",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "ESTUDOU_EM",
+      "target": "Harvard",
+      "evidence": "Possui Bacharelado em Matemática pela Harvard (1950) e PhD em Matemática pela Princeton (1954)."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "ESTUDOU_EM",
+      "target": "Princeton",
+      "evidence": "Possui Bacharelado em Matemática pela Harvard (1950) e PhD em Matemática pela Princeton (1954)."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "TRABALHOU_EM",
+      "target": "MIT",
+      "evidence": "Ele está vinculado com o MIT desde 1958."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "COLABOROU_COM",
+      "target": "John McCarthy",
+      "evidence": "Em 1959 ele e John McCarthy fundaram o que agora é conhecido como o Laboratório de Ciência da Computação e Inteligência Artificial do MIT."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "CRIOU",
+      "target": "display gráfico head-mounted",
+      "evidence": "As invenções de Minsky incluem o primeiro display gráfico head-mounted (1963) e o microscópio confocal (1957, um antecessor do microscópio confocal de varrimento a laser largamente usado nos dias de hoje)."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "CRIOU",
+      "target": "microscópio confocal",
+      "evidence": "As invenções de Minsky incluem o primeiro display gráfico head-mounted (1963) e o microscópio confocal (1957, um antecessor do microscópio confocal de varrimento a laser largamente usado nos dias de hoje)."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "COLABOROU_COM",
+      "target": "Seymour Papert",
+      "evidence": "Ele desenvolveu, com Seymour Papert, a primeira \"turtle\" Logo."
+    },
+    {
+      "source": "Marvin Lee Minsky",
+      "type": "CRIOU",
+      "target": "SNARC",
+      "evidence": "Minsky também construiu, em 1951, a primeira máquina de aprendizado com rede neural de fiação aleatória, SNARC."
+    }
+  ],
+  "chunk_id": "marvin_minsky#0"
+}

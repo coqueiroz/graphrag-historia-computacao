@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "Edsger Wybe Dijkstra",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "algoritmo para o problema do caminho mínimo",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "sistema operacional THE",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "auto-estabilização",
+      "label": "Conceito"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Edsger Wybe Dijkstra",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "pelo qual recebeu o Prêmio Turing de 1972 por suas contribuições fundamentais"
+    },
+    {
+      "source": "Edsger Wybe Dijkstra",
+      "type": "CRIOU",
+      "target": "algoritmo para o problema do caminho mínimo",
+      "evidence": "Entre suas contribuições para a ciência da computação está incluído o algoritmo para o problema do caminho mínimo"
+    },
+    {
+      "source": "Edsger Wybe Dijkstra",
+      "type": "CRIOU",
+      "target": "sistema operacional THE",
+      "evidence": "o sistema operacional THE e a construção de semáforos para coordenar múltiplos processadores e programas."
+    },
+    {
+      "source": "Edsger Wybe Dijkstra",
+      "type": "CRIOU",
+      "target": "auto-estabilização",
+      "evidence": "Outro conceito desenvolvido pelo cientista foi a auto-estabilização na área de sistemas distribuídos, uma forma alternativa de garantir a confiança de um sistema."
+    }
+  ],
+  "chunk_id": "edsger_dijkstra#0"
+}

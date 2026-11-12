@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "Universidade de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "SAT I",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ACT",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "TOEFL",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "universidade_stanford#1"
+}

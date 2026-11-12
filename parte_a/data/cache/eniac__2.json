@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "John Von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "J. Presper Eckert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Mauchly",
+      "label": "Pessoa"
+    },
+    {
+      "name": "EDVAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ORDVAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "SEAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "UNIVAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Moore School for Electrical Engineering",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade da Pensilvânia",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Smithsonian",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Washington D.C",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "J. Presper Eckert",
+      "type": "CRIOU",
+      "target": "UNIVAC",
+      "evidence": "o UNIVAC, este último também construído por Eckert e Mauchly para o processamento dos dados dos censos da população americana."
+    },
+    {
+      "source": "John Mauchly",
+      "type": "CRIOU",
+      "target": "UNIVAC",
+      "evidence": "o UNIVAC, este último também construído por Eckert e Mauchly para o processamento dos dados dos censos da população americana."
+    },
+    {
+      "source": "Moore School for Electrical Engineering",
+      "type": "LOCALIZADO_EM",
+      "target": "Universidade da Pensilvânia",
+      "evidence": "na Moore School for Electrical Engineering da Universidade da Pensilvânia."
+    },
+    {
+      "source": "Smithsonian",
+      "type": "LOCALIZADO_EM",
+      "target": "Washington D.C",
+      "evidence": "incluindo o Smithsonian em Washington D.C"
+    },
+    {
+      "source": "ENIAC",
+      "type": "INFLUENCIOU",
+      "target": "EDVAC",
+      "evidence": "O ENIAC serviu de inspiração para muitos outros computadores que se seguiram, como o EDVAC"
+    },
+    {
+      "source": "ENIAC",
+      "type": "INFLUENCIOU",
+      "target": "ORDVAC",
+      "evidence": "O ENIAC serviu de inspiração para muitos outros computadores que se seguiram, como o EDVAC (Electronic Discrete Variable Computer); o ORDVAC"
+    },
+    {
+      "source": "ENIAC",
+      "type": "INFLUENCIOU",
+      "target": "SEAC",
+      "evidence": "O ENIAC serviu de inspiração para muitos outros computadores que se seguiram, como o EDVAC (Electronic Discrete Variable Computer); o ORDVAC (Ordnance Variable Automatic Computer); SEAC"
+    },
+    {
+      "source": "ENIAC",
+      "type": "INFLUENCIOU",
+      "target": "UNIVAC",
+      "evidence": "O ENIAC serviu de inspiração para muitos outros computadores que se seguiram, como o EDVAC (Electronic Discrete Variable Computer); o ORDVAC (Ordnance Variable Automatic Computer); SEAC (Standards Automatic Computer) e o UNIVAC"
+    }
+  ],
+  "chunk_id": "eniac#2"
+}

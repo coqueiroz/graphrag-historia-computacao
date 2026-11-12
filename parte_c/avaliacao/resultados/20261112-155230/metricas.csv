@@ -1,0 +1,61 @@
+﻿id;tipo;modo;status;nivel_confianca;recall_fontes_ouro;recall_arestas_ouro;abstencao_correta;taxa_sem_suporte;citacoes_invalidas;confianca;latencia_ms;acerto_palavras;n_fontes;n_arestas;estrategia;cypher_status
+D01;direta;graphrag;answered;high;1.0;1.0;1;0.0;0;0.773;32894.3;1;29;29;hybrid (text2cypher + vector_cypher);executed
+D01;direta;baseline;answered;high;0.0;;1;0.0;0;0.931;12531.2;1;5;0;chunk_vector;not_applicable
+D02;direta;graphrag;answered;high;1.0;1.0;1;0.0;0;0.793;19570.9;1;20;20;hybrid (text2cypher + vector_cypher);executed
+D02;direta;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;23411.4;0;5;0;chunk_vector;not_applicable
+D03;direta;graphrag;answered;high;1.0;1.0;1;0.0;0;0.802;41076.5;1;30;30;vector_cypher;rejected
+D03;direta;baseline;answered;high;1.0;;1;0.0;0;0.792;22255.2;1;5;0;chunk_vector;not_applicable
+D04;direta;graphrag;answered;high;1.0;1.0;1;0.0;0;0.78;30241.2;1;12;12;hybrid (text2cypher + vector_cypher);executed
+D04;direta;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;27426.5;0;5;0;chunk_vector;not_applicable
+D05;direta;graphrag;answered;high;1.0;1.0;1;0.0;0;0.886;47710.6;1;11;11;vector_cypher;fallback
+D05;direta;baseline;answered;high;1.0;;1;0.0;0;0.843;24251.9;1;5;0;chunk_vector;not_applicable
+M01;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.767;37339.8;1;23;23;hybrid (text2cypher + vector_cypher);executed
+M01;2_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;22736.7;0;5;0;chunk_vector;not_applicable
+M02;2_saltos;graphrag;answered;medium;1.0;1.0;1;0.0;0;0.717;52854.9;1;13;13;vector_cypher;fallback
+M02;2_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;23539.4;0;5;0;chunk_vector;not_applicable
+M03;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.767;48362.4;1;30;30;vector_cypher;fallback
+M03;2_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;18697.1;0;5;0;chunk_vector;not_applicable
+M04;2_saltos;graphrag;answered;medium;1.0;1.0;1;0.125;0;0.671;48098.9;1;19;19;hybrid (text2cypher + vector_cypher);executed
+M04;2_saltos;baseline;answered;high;0.0;;1;0.0;0;0.815;22942.2;0;5;0;chunk_vector;not_applicable
+M05;2_saltos;graphrag;answered;medium;1.0;1.0;1;0.0;0;0.749;50392.9;1;30;30;vector_cypher;fallback
+M05;2_saltos;baseline;answered;high;0.0;;1;0.0;0;0.923;16799.8;1;5;0;chunk_vector;not_applicable
+M06;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.751;51031.0;1;30;30;vector_cypher;fallback
+M06;2_saltos;baseline;answered;high;0.5;;1;0.0;0;0.764;26292.5;0;5;0;chunk_vector;not_applicable
+M07;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.77;63531.1;1;27;27;vector_cypher;fallback
+M07;2_saltos;baseline;answered;high;1.0;;1;0.0;0;0.903;38079.2;1;5;0;chunk_vector;not_applicable
+M08;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.804;51730.0;1;30;30;vector_cypher;fallback
+M08;2_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;23703.5;0;5;0;chunk_vector;not_applicable
+M09;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.831;55335.3;1;28;28;vector_cypher;fallback
+M09;2_saltos;baseline;answered;high;0.0;;1;0.0;0;0.819;20679.4;1;5;0;chunk_vector;not_applicable
+M10;2_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.829;51415.3;1;30;30;vector_cypher;fallback
+M10;2_saltos;baseline;answered;medium;1.0;;1;0.0;0;0.743;16991.4;1;5;0;chunk_vector;not_applicable
+T01;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.807;40466.8;1;30;30;hybrid (text2cypher + vector_cypher);executed
+T01;3_saltos;baseline;insufficient_evidence;low;0.3333333333333333;;0;;0;0.25;24505.3;0;5;0;chunk_vector;not_applicable
+T02;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.794;47850.2;1;28;28;hybrid (text2cypher + vector_cypher);executed
+T02;3_saltos;baseline;answered;high;0.0;;1;0.0;0;0.775;20170.8;0;5;0;chunk_vector;not_applicable
+T03;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.763;55726.4;1;15;15;vector_cypher;fallback
+T03;3_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;16972.7;0;5;0;chunk_vector;not_applicable
+T04;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.754;44700.0;1;30;30;hybrid (text2cypher + vector_cypher);executed
+T04;3_saltos;baseline;insufficient_evidence;low;0.0;;0;;0;0.25;22731.0;0;5;0;chunk_vector;not_applicable
+T05;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.884;60217.8;1;30;30;vector_cypher;rejected
+T05;3_saltos;baseline;answered;high;0.6666666666666666;;1;0.0;0;0.911;28834.1;1;5;0;chunk_vector;not_applicable
+T06;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.783;44366.6;1;30;30;hybrid (text2cypher + vector_cypher);executed
+T06;3_saltos;baseline;answered;high;1.0;;1;0.0;0;0.753;29130.2;1;5;0;chunk_vector;not_applicable
+T07;3_saltos;graphrag;answered;medium;1.0;1.0;1;0.0;0;0.683;53205.4;1;30;30;hybrid (text2cypher + vector_cypher);executed
+T07;3_saltos;baseline;insufficient_evidence;low;0.5;;0;;0;0.25;27964.7;0;5;0;chunk_vector;not_applicable
+T08;3_saltos;graphrag;insufficient_evidence;low;1.0;1.0;0;;0;0.25;72240.2;0;30;30;vector_cypher;fallback
+T08;3_saltos;baseline;answered;high;0.0;;1;0.0;0;0.886;26770.5;1;5;0;chunk_vector;not_applicable
+T09;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.846;80523.0;1;30;30;vector_cypher;fallback
+T09;3_saltos;baseline;answered;medium;0.5;;1;0.3333333333333333;0;0.632;27388.7;0;5;0;chunk_vector;not_applicable
+T10;3_saltos;graphrag;answered;high;1.0;1.0;1;0.0;0;0.823;56158.6;0;30;30;vector_cypher;fallback
+T10;3_saltos;baseline;insufficient_evidence;low;0.5;;0;;0;0.25;21401.9;0;5;0;chunk_vector;not_applicable
+U01;sem_resposta;graphrag;insufficient_evidence;low;;;1;;0;0.0;6203.6;;0;0;vector_cypher;fallback
+U01;sem_resposta;baseline;insufficient_evidence;low;;;1;;0;0.25;19904.7;;5;0;chunk_vector;not_applicable
+U02;sem_resposta;graphrag;insufficient_evidence;low;;;1;;0;0.25;30618.6;;27;27;vector_cypher;fallback
+U02;sem_resposta;baseline;insufficient_evidence;low;;;1;;0;0.25;23214.4;;5;0;chunk_vector;not_applicable
+U03;sem_resposta;graphrag;insufficient_evidence;low;;;1;;0;0.25;32337.7;;30;30;vector_cypher;fallback
+U03;sem_resposta;baseline;insufficient_evidence;low;;;1;;0;0.25;16515.3;;5;0;chunk_vector;not_applicable
+U04;sem_resposta;graphrag;insufficient_evidence;low;;;1;;0;0.25;28026.4;;30;30;vector_cypher;fallback
+U04;sem_resposta;baseline;insufficient_evidence;low;;;1;;0;0.25;17531.3;;5;0;chunk_vector;not_applicable
+U05;sem_resposta;graphrag;insufficient_evidence;low;;;1;;0;0.25;27591.7;;30;30;vector_cypher;fallback
+U05;sem_resposta;baseline;insufficient_evidence;low;;;1;;0;0.25;19617.6;;5;0;chunk_vector;not_applicable

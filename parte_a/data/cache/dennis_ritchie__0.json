@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "Dennis Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Ken Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Association for Computing Machinery (ACM)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Medalha IEEE Richard W. Hamming",
+      "label": "Premio"
+    },
+    {
+      "name": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Medalha Nacional de Tecnologia e Inovação",
+      "label": "Premio"
+    },
+    {
+      "name": "Lucent Technologies",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bell Labs",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade Harvard",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Patrick C. Fischer",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Computer History Museum",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Multics",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "PDP-7",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Brian Kernighan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "James Reeds",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Robert Morris",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "B",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "B",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Ken Thompson",
+      "evidence": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Dennis Ritchie e Ken Thompson receberam o Prêmio Turing da Association for Computing Machinery (ACM) em 1983"
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Dennis Ritchie e Ken Thompson receberam o Prêmio Turing da Association for Computing Machinery (ACM) em 1983"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Medalha IEEE Richard W. Hamming",
+      "evidence": "a Medalha IEEE Richard W. Hamming do Institute of Electrical and Electronics Engineers (IEEE) em 1990"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "RECEBEU",
+      "target": "Medalha Nacional de Tecnologia e Inovação",
+      "evidence": "e a Medalha Nacional de Tecnologia e Inovação, concedida pelo presidente Bill Clinton em 1999."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "TRABALHOU_EM",
+      "target": "Lucent Technologies",
+      "evidence": "Dennis Ritchie ocupava o cargo de chefe do Departamento de Pesquisa em Software de Sistemas da Lucent Technologies quando se aposentou, em 2007."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade Harvard",
+      "evidence": "Formou-se na Universidade Harvard em 1963, com diplomas em Física e Matemática Aplicada."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "TRABALHOU_EM",
+      "target": "Bell Labs",
+      "evidence": "Em 1967, Dennis Ritchie iniciou as suas atividades no Bell Labs Computing Science Research Center."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "ORIENTOU",
+      "target": "Patrick C. Fischer",
+      "evidence": "Em 1968, ele concluiu um rascunho de sua tese de doutorado intitulada Computational Complexity and Program Structure, na Universidade de Harvard, sob a orientação de Patrick C. Fischer."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "James Reeds",
+      "evidence": "Durante a década de 1970, Ritchie colaborou com James Reeds e Robert Morris em um ataque apenas com texto cifrado"
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "COLABOROU_COM",
+      "target": "Robert Morris",
+      "evidence": "Durante a década de 1970, Ritchie colaborou com James Reeds e Robert Morris em um ataque apenas com texto cifrado"
+    }
+  ],
+  "chunk_id": "dennis_ritchie#0"
+}

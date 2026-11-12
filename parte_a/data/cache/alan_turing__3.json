@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "name": "Alan Turing",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Morcom",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Frances Isobel Morcom",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Alan Turing",
+      "type": "INFLUENCIOU",
+      "target": "Morcom",
+      "evidence": "Ele lidou com sua dor trabalhando com muito mais empenho nos tópicos de ciências e matemática que havia compartilhado com Morcom."
+    }
+  ],
+  "chunk_id": "alan_turing#3"
+}

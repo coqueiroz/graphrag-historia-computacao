@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "Dan Weinreb",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Common Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Scieneer Common Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "CMUCL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Python",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Scheme",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Julia",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "McCarthy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "LISP 1.5",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "LISP 1",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Scieneer Common Lisp",
+      "type": "BASEADO_EM",
+      "target": "CMUCL",
+      "evidence": "Scieneer Common Lisp é uma nova implementação comercial da CMUCL com um primeiro lançamento em 2002."
+    },
+    {
+      "source": "Scheme",
+      "type": "INFLUENCIOU",
+      "target": "Julia",
+      "evidence": "O analisador para Julia é implementado em Femtolisp, um dialeto de Scheme (Julia é inspirada por Scheme e é frequentemente considerada um Lisp)."
+    },
+    {
+      "source": "McCarthy",
+      "type": "CRIOU",
+      "target": "LISP 1.5",
+      "evidence": "LISP 1.5 – Primeira versão amplamente distribuída, desenvolvida por McCarthy e outros do MIT."
+    },
+    {
+      "source": "LISP 1.5",
+      "type": "DESENVOLVIDO_EM",
+      "target": "MIT",
+      "evidence": "LISP 1.5 – Primeira versão amplamente distribuída, desenvolvida por McCarthy e outros do MIT."
+    },
+    {
+      "source": "LISP 1.5",
+      "type": "BASEADO_EM",
+      "target": "LISP 1",
+      "evidence": "Assim chamada porque continha várias melhorias no interpretador \"LISP 1\" original, mas não foi uma grande reestruturação como planejado que fosse ser o LISP 2."
+    }
+  ],
+  "chunk_id": "lisp#2"
+}

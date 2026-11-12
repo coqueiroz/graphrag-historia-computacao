@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "John von Neumann",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Georg Cantor",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Prêmio Eötvös",
+      "label": "Premio"
+    },
+    {
+      "name": "Theodore von Kármán",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Berlim",
+      "label": "Instituicao"
+    },
+    {
+      "name": "ETH Zurique",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Budapeste",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Göttingen",
+      "label": "Instituicao"
+    },
+    {
+      "name": "David Hilbert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Hermann Weyl",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Emmy Noether",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Universidade de Hamburgo",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Universidade de Princeton",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Marietta Kövesi",
+      "label": "Pessoa"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John von Neumann",
+      "type": "RECEBEU",
+      "target": "Prêmio Eötvös",
+      "evidence": "Ao concluir a sua educação no ginásio, ele se candidatou e ganhou o Prêmio Eötvös, um prêmio nacional de matemática."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Berlim",
+      "evidence": "foi arranjado para que ele fizesse um curso de química de dois anos, sem obtenção de diploma, na Universidade de Berlim"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "ETH Zurique",
+      "evidence": "Em 1926, formou-se como engenheiro químico pela ETH Zurique"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Budapeste",
+      "evidence": "Simultaneamente, von Neumann ingressou na Universidade Pázmány Péter, então conhecida como Universidade de Budapeste, como candidato a Ph.D. em matemática."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Göttingen",
+      "evidence": "Ele então foi para a Universidade de Göttingen com uma bolsa da Fundação Rockefeller para estudar matemática sob a orientação de David Hilbert."
+    },
+    {
+      "source": "David Hilbert",
+      "type": "ORIENTOU",
+      "target": "John von Neumann",
+      "evidence": "Ele então foi para a Universidade de Göttingen com uma bolsa da Fundação Rockefeller para estudar matemática sob a orientação de David Hilbert."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Berlim",
+      "evidence": "ele começou a dar aulas como Privatdozent na Universidade de Berlim em 1928."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Hamburgo",
+      "evidence": "Em 1929, ele tornou-se brevemente um Privatdozent na Universidade de Hamburgo"
+    },
+    {
+      "source": "John von Neumann",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Princeton",
+      "evidence": "mudou-se para a Universidade de Princeton como professor visitante em física matemática."
+    },
+    {
+      "source": "Marietta Kövesi",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Budapeste",
+      "evidence": "casou-se com Marietta Kövesi, que havia estudado economia na Universidade de Budapeste."
+    },
+    {
+      "source": "John von Neumann",
+      "type": "COLABOROU_COM",
+      "target": "Theodore von Kármán",
+      "evidence": "De acordo com o seu amigo Theodore von Kármán"
+    }
+  ],
+  "chunk_id": "john_von_neumann#2"
+}

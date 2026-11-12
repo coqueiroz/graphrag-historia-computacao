@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "Unix",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Ken Thompson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Dennis Ritchie",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Laboratórios Bell",
+      "label": "Instituicao"
+    },
+    {
+      "name": "AT&T",
+      "label": "Instituicao"
+    },
+    {
+      "name": "The Open Group",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Douglas McIlroy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Peter Weiner",
+      "label": "Pessoa"
+    },
+    {
+      "name": "General Electric",
+      "label": "Instituicao"
+    },
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Multics",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "GE 645",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "PDP-7",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Unics",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "assembly",
+      "label": "Conceito"
+    },
+    {
+      "name": "Brian Kernighan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "C",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "PDP-11",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "B",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "BSD",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Berkeley",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Califórnia",
+      "label": "Local"
+    },
+    {
+      "name": "System III",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "System V",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ken Thompson",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratórios Bell",
+      "evidence": "Unix (inglês: [ˈju:nɪks]) é um sistema operativo portável, multitarefa e multiutilizador originalmente criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "TRABALHOU_EM",
+      "target": "Laboratórios Bell",
+      "evidence": "Unix (inglês: [ˈju:nɪks]) é um sistema operativo portável, multitarefa e multiutilizador originalmente criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Unix (inglês: [ˈju:nɪks]) é um sistema operativo portável, multitarefa e multiutilizador originalmente criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "Unix",
+      "evidence": "Unix (inglês: [ˈju:nɪks]) é um sistema operativo portável, multitarefa e multiutilizador originalmente criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "Unics",
+      "evidence": "Ainda em 1969, Ken Thompson, usando um ocioso computador PDP-7, começou a reescrever o Multics num conceito menos ambicioso, batizado de Unics, usando linguagem de montagem assembly."
+    },
+    {
+      "source": "Dennis Ritchie",
+      "type": "CRIOU",
+      "target": "C",
+      "evidence": "A linguagem C havia sido desenvolvida por Ritchie para substituir e superar as limitações da linguagem B, desenvolvida por Thompson."
+    },
+    {
+      "source": "Ken Thompson",
+      "type": "CRIOU",
+      "target": "B",
+      "evidence": "A linguagem C havia sido desenvolvida por Ritchie para substituir e superar as limitações da linguagem B, desenvolvida por Thompson."
+    },
+    {
+      "source": "Universidade de Berkeley",
+      "type": "LOCALIZADO_EM",
+      "target": "Califórnia",
+      "evidence": "Finalmente, ao longo dos anos 1970 e 80 foram sendo desenvolvidas as primeiras distribuições de grande dimensão como os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    },
+    {
+      "source": "BSD",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade de Berkeley",
+      "evidence": "Finalmente, ao longo dos anos 1970 e 80 foram sendo desenvolvidas as primeiras distribuições de grande dimensão como os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    },
+    {
+      "source": "System III",
+      "type": "DESENVOLVIDO_EM",
+      "target": "AT&T",
+      "evidence": "Finalmente, ao longo dos anos 1970 e 80 foram sendo desenvolvidas as primeiras distribuições de grande dimensão como os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    },
+    {
+      "source": "System V",
+      "type": "DESENVOLVIDO_EM",
+      "target": "AT&T",
+      "evidence": "Finalmente, ao longo dos anos 1970 e 80 foram sendo desenvolvidas as primeiras distribuições de grande dimensão como os sistemas BSD (na Universidade de Berkeley na Califórnia) e os System III e System V (na AT&T)."
+    }
+  ],
+  "chunk_id": "unix#0"
+}

@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "John McCarthy",
+      "label": "Pessoa"
+    },
+    {
+      "name": "inteligência artificial",
+      "label": "Conceito"
+    },
+    {
+      "name": "Lisp",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ALGOL",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Prêmio Turing",
+      "label": "Premio"
+    },
+    {
+      "name": "Medalha Nacional de Ciências dos Estados Unidos",
+      "label": "Premio"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John McCarthy",
+      "type": "CRIOU",
+      "target": "inteligência artificial",
+      "evidence": "Ele foi coautor do documento que cunhou o termo \"inteligência artificial\" (IA), desenvolveu a família de linguagem de programação Lisp, influenciou significativamente o design da linguagem ALGOL, popularizou o time-sharing e inventou o coletor de lixo."
+    },
+    {
+      "source": "John McCarthy",
+      "type": "CRIOU",
+      "target": "Lisp",
+      "evidence": "Ele foi coautor do documento que cunhou o termo \"inteligência artificial\" (IA), desenvolveu a família de linguagem de programação Lisp, influenciou significativamente o design da linguagem ALGOL, popularizou o time-sharing e inventou o coletor de lixo."
+    },
+    {
+      "source": "John McCarthy",
+      "type": "INFLUENCIOU",
+      "target": "ALGOL",
+      "evidence": "Ele foi coautor do documento que cunhou o termo \"inteligência artificial\" (IA), desenvolveu a família de linguagem de programação Lisp, influenciou significativamente o design da linguagem ALGOL, popularizou o time-sharing e inventou o coletor de lixo."
+    },
+    {
+      "source": "John McCarthy",
+      "type": "TRABALHOU_EM",
+      "target": "Universidade de Stanford",
+      "evidence": "McCarthy passou a maior parte de sua carreira na Universidade de Stanford."
+    },
+    {
+      "source": "John McCarthy",
+      "type": "RECEBEU",
+      "target": "Prêmio Turing",
+      "evidence": "Recebeu o Prêmio Turing de 1972 e a Medalha Nacional de Ciências dos Estados Unidos de 1991."
+    },
+    {
+      "source": "John McCarthy",
+      "type": "RECEBEU",
+      "target": "Medalha Nacional de Ciências dos Estados Unidos",
+      "evidence": "Recebeu o Prêmio Turing de 1972 e a Medalha Nacional de Ciências dos Estados Unidos de 1991."
+    }
+  ],
+  "chunk_id": "john_mccarthy#0"
+}

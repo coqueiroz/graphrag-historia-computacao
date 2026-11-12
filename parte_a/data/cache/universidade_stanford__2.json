@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "Universidade de Stanford",
+      "label": "Instituicao"
+    },
+    {
+      "name": "HP",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cisco",
+      "label": "Instituicao"
+    },
+    {
+      "name": "eBay",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Google",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Instagram",
+      "label": "Instituicao"
+    },
+    {
+      "name": "LinkedIn",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Netflix",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Nike",
+      "label": "Instituicao"
+    },
+    {
+      "name": "NVIDIA",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sun Microsystems",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Tesla",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Yahoo",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Qwhispr",
+      "label": "Instituicao"
+    },
+    {
+      "name": "PredictiveEdge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "WifiSlam",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Leglytics",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Hewlett-Packard",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "universidade_stanford#2"
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "PARC",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Xerox",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "xerox_parc#1"
+}

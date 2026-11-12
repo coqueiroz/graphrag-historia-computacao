@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "Edsger W. Dijkstra",
+      "label": "Pessoa"
+    },
+    {
+      "name": "programação estruturada",
+      "label": "Conceito"
+    },
+    {
+      "name": "ACM PODC-Influential-Paper Award",
+      "label": "Premio"
+    },
+    {
+      "name": "Prêmio Dijkstra",
+      "label": "Premio"
+    },
+    {
+      "name": "Universidade do Texas",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Roterdã",
+      "label": "Local"
+    },
+    {
+      "name": "Universidade de Leiden",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Edsger W. Dijkstra",
+      "type": "CRIOU",
+      "target": "programação estruturada",
+      "evidence": "noclastia de Dijkstra levou a um movimento conhecido como programação estruturada"
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "type": "RECEBEU",
+      "target": "ACM PODC-Influential-Paper Award",
+      "evidence": "ele recebeu o prêmio ACM PODC-Influential-Paper Award em computação distribuída por seu trabalho em auto-estabilização da computação de programas."
+    },
+    {
+      "source": "Universidade do Texas",
+      "type": "LOCALIZADO_EM",
+      "target": "Roterdã",
+      "evidence": "Nascido em Roterdã... arquivos de Dijsktra na Universidade do Texas."
+    },
+    {
+      "source": "Edsger W. Dijkstra",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Leiden",
+      "evidence": "Estudou matemática e física nos primeiros anos da Universidade de Leiden"
+    }
+  ],
+  "chunk_id": "edsger_dijkstra#2"
+}

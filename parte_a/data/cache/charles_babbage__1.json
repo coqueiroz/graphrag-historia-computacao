@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "name": "Charles Babbage",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Holmwood",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Stephen Freeman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Trinity College",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cambridge",
+      "label": "Local"
+    },
+    {
+      "name": "Leibniz",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Joseph Louis Lagrange",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Thomas Simpson",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Lacroix",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Herschel",
+      "label": "Pessoa"
+    },
+    {
+      "name": "George Peacock",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Analytical Society do Trinity College, em Cambridge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Sir Edward Ryan",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Peterhouse",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Royal Society of London",
+      "label": "Instituicao"
+    },
+    {
+      "name": "University of Cambridge",
+      "label": "Instituicao"
+    },
+    {
+      "name": "máquina analítica",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Georgiana Whitmore",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Igreja de St. Michael",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Teignmouth",
+      "label": "Local"
+    },
+    {
+      "name": "Dudmaston Hall",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Shropshire",
+      "label": "Local"
+    },
+    {
+      "name": "Londres",
+      "label": "Local"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Charles Babbage",
+      "type": "ESTUDOU_EM",
+      "target": "Trinity College",
+      "evidence": "Charles Babbage estudou no Trinity College, em Cambridge, onde depois lecionou matemática."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "TRABALHOU_EM",
+      "target": "Trinity College",
+      "evidence": "Charles Babbage estudou no Trinity College, em Cambridge, onde depois lecionou matemática."
+    },
+    {
+      "source": "Trinity College",
+      "type": "LOCALIZADO_EM",
+      "target": "Cambridge",
+      "evidence": "Charles Babbage estudou no Trinity College, em Cambridge, onde depois lecionou matemática."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "INFLUENCIOU",
+      "target": "Leibniz",
+      "evidence": "Ele tinha lido extensivamente Leibniz, Joseph Louis Lagrange, Thomas Simpson, e Lacroix e ficou seriamente decepcionado com o ensino da matemática disponível em Cambridge."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "INFLUENCIOU",
+      "target": "Joseph Louis Lagrange",
+      "evidence": "Ele tinha lido extensivamente Leibniz, Joseph Louis Lagrange, Thomas Simpson, e Lacroix e ficou seriamente decepcionado com o ensino da matemática disponível em Cambridge."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "INFLUENCIOU",
+      "target": "Thomas Simpson",
+      "evidence": "Ele tinha lido extensivamente Leibniz, Joseph Louis Lagrange, Thomas Simpson, e Lacroix e ficou seriamente decepcionado com o ensino da matemática disponível em Cambridge."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "INFLUENCIOU",
+      "target": "Lacroix",
+      "evidence": "Ele tinha lido extensivamente Leibniz, Joseph Louis Lagrange, Thomas Simpson, e Lacroix e ficou seriamente decepcionado com o ensino da matemática disponível em Cambridge."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "COLABOROU_COM",
+      "target": "John Herschel",
+      "evidence": "Em resposta, ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society do Trinity College, em Cambridge em 1812."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "COLABOROU_COM",
+      "target": "George Peacock",
+      "evidence": "Em resposta, ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society do Trinity College, em Cambridge em 1812."
+    },
+    {
+      "source": "John Herschel",
+      "type": "COLABOROU_COM",
+      "target": "George Peacock",
+      "evidence": "Em resposta, ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society do Trinity College, em Cambridge em 1812."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "COLABOROU_COM",
+      "target": "Sir Edward Ryan",
+      "evidence": "Babbage, Herschel e Peacock também eram amigos íntimos do futuro juiz e patrono da ciência Sir Edward Ryan."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "ESTUDOU_EM",
+      "target": "Peterhouse",
+      "evidence": "Em 1812 Babbage transferido para Peterhouse, Cambridge."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "TRABALHOU_EM",
+      "target": "University of Cambridge",
+      "evidence": "Enquanto desenvolvia sua máquina era professor de matemática na University of Cambridge (1828-1839)."
+    },
+    {
+      "source": "Charles Babbage",
+      "type": "CRIOU",
+      "target": "máquina analítica",
+      "evidence": "Apresentou sua máquina analítica em 1833, tendo sido considerada o ponto de partida para os modernos computadores eletrônicos."
+    },
+    {
+      "source": "Igreja de St. Michael",
+      "type": "LOCALIZADO_EM",
+      "target": "Teignmouth",
+      "evidence": "Em 25 de Julho de 1814, Babbage se casou com Georgiana Whitmore, na Igreja de St. Michael em Teignmouth, Devon."
+    },
+    {
+      "source": "Dudmaston Hall",
+      "type": "LOCALIZADO_EM",
+      "target": "Shropshire",
+      "evidence": "O casal viveu em Dudmaston Hall, Shropshire (onde Babbage projetou o sistema de aquecimento central), antes de passar a morar no número 5 da rua Devonshire Street, em Portland Place, Londres."
+    }
+  ],
+  "chunk_id": "charles_babbage#1"
+}

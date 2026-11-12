@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "MIT",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Harvard",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Cambridge",
+      "label": "Local"
+    },
+    {
+      "name": "William W. Bosworth",
+      "label": "Pessoa"
+    },
+    {
+      "name": "George Eastman",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Kodak",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "MIT",
+      "type": "LOCALIZADO_EM",
+      "target": "Cambridge",
+      "evidence": "Em 1912, o MIT adquiriu seu atual campus ao comprar uma faixa de terras aterradas de uma milha (1,6 km) ao longo da margem do rio Charles em Cambridge."
+    },
+    {
+      "source": "George Eastman",
+      "type": "CRIOU",
+      "target": "Kodak",
+      "evidence": "Em janeiro de 1920, revelou-se que o doador era o industrial George Eastman, inventor de métodos de produção de filmes fotográficos e fundador da Kodak."
+    }
+  ],
+  "chunk_id": "instituto_de_tecnologia_de_massachusetts#3"
+}

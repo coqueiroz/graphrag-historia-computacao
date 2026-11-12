@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "Western Electric",
+      "label": "Instituicao"
+    },
+    {
+      "name": "AT&T",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Bell System",
+      "label": "Instituicao"
+    },
+    {
+      "name": "John J. Carty",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Frank B. Jewett",
+      "label": "Pessoa"
+    },
+    {
+      "name": "E. B. Craft",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Gulfport",
+      "label": "Local"
+    },
+    {
+      "name": "Mississippi",
+      "label": "Local"
+    },
+    {
+      "name": "Deal",
+      "label": "Local"
+    },
+    {
+      "name": "Nova Jérsei",
+      "label": "Local"
+    },
+    {
+      "name": "Whippany",
+      "label": "Local"
+    },
+    {
+      "name": "Hanover",
+      "label": "Local"
+    },
+    {
+      "name": "Chester Township",
+      "label": "Local"
+    },
+    {
+      "name": "Limon",
+      "label": "Local"
+    },
+    {
+      "name": "Colorado",
+      "label": "Local"
+    },
+    {
+      "name": "Summit",
+      "label": "Local"
+    },
+    {
+      "name": "Holmdel Township",
+      "label": "Local"
+    },
+    {
+      "name": "Cliffwood",
+      "label": "Local"
+    },
+    {
+      "name": "Mendham Township",
+      "label": "Local"
+    }
+  ],
+  "relations": [],
+  "chunk_id": "bell_labs#2"
+}

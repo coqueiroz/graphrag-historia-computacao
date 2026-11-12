@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "Edsger Dijkstra",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Amesterdão",
+      "label": "Local"
+    },
+    {
+      "name": "Universidade de Leiden",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Algoritmo de Dijkstra",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "ARMAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "J. A. Zonneveld",
+      "label": "Pessoa"
+    },
+    {
+      "name": "ALGOL 60",
+      "label": "Tecnologia"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Edsger Dijkstra",
+      "type": "TRABALHOU_EM",
+      "target": "Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+      "evidence": "Através de contatos acabou tendo um emprego oferecido como programador no Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação em Amesterdão"
+    },
+    {
+      "source": "Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+      "type": "LOCALIZADO_EM",
+      "target": "Amesterdão",
+      "evidence": "Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação em Amesterdão"
+    },
+    {
+      "source": "Edsger Dijkstra",
+      "type": "ESTUDOU_EM",
+      "target": "Universidade de Leiden",
+      "evidence": "Entretanto, continuou seus estudos de física na Universidade de Leiden como formalidade, até graduar-se em 1956."
+    },
+    {
+      "source": "Edsger Dijkstra",
+      "type": "CRIOU",
+      "target": "Algoritmo de Dijkstra",
+      "evidence": "Um dos primeiros algoritmos desenvolvidos pelo cientista foi uma solução para o problema do caminho mínimo, também conhecido como algoritmo de Dijkstra."
+    },
+    {
+      "source": "Algoritmo de Dijkstra",
+      "type": "DESENVOLVIDO_EM",
+      "target": "ARMAC",
+      "evidence": "Sua intenção original era demonstrar o poder de processamento do ARMAC em sua inauguração."
+    },
+    {
+      "source": "Edsger Dijkstra",
+      "type": "COLABOROU_COM",
+      "target": "J. A. Zonneveld",
+      "evidence": "Ainda no Centro de Matemática, trabalhou junto com J. A. Zonneveld no desenvolvimento do primeiro compilador para ALGOL 60"
+    }
+  ],
+  "chunk_id": "edsger_dijkstra#3"
+}

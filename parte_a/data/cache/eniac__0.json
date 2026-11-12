@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "ENIAC",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "John Eckert",
+      "label": "Pessoa"
+    },
+    {
+      "name": "John Mauchly",
+      "label": "Pessoa"
+    },
+    {
+      "name": "Electronic Control Company",
+      "label": "Instituicao"
+    },
+    {
+      "name": "Mark I",
+      "label": "Tecnologia"
+    },
+    {
+      "name": "Universidade da Pensilvânia",
+      "label": "Instituicao"
+    }
+  ],
+  "relations": [
+    {
+      "source": "John Eckert",
+      "type": "CRIOU",
+      "target": "ENIAC",
+      "evidence": "Criado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia durante os anos de 1937-1943, o ENIAC tinha como objetivo principal computar dados balísticos de artilharia em altas velocidades para ajudar as tropas aliadas na Segunda Guerra Mundial."
+    },
+    {
+      "source": "John Mauchly",
+      "type": "CRIOU",
+      "target": "ENIAC",
+      "evidence": "Criado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia durante os anos de 1937-1943, o ENIAC tinha como objetivo principal computar dados balísticos de artilharia em altas velocidades para ajudar as tropas aliadas na Segunda Guerra Mundial."
+    },
+    {
+      "source": "ENIAC",
+      "type": "DESENVOLVIDO_EM",
+      "target": "Universidade da Pensilvânia",
+      "evidence": "Criado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia durante os anos de 1937-1943, o ENIAC tinha como objetivo principal computar dados balísticos de artilharia em altas velocidades para ajudar as tropas aliadas na Segunda Guerra Mundial."
+    }
+  ],
+  "chunk_id": "eniac#0"
+}
