@@ -190,7 +190,8 @@ Depois de mudar o `grafo.json`, repita o passo 5 com `--wipe`.
 | B: Neo4j | João Lucas Luna Brasileiro |
 | C: Recuperação e geração | Vinícius Mendes de Lucena |
 | D: Interface | Pedro Henrique Faustino Madruga Navarro |
-| Artigo, testes e apresentação | [Nome] · [Nome] |
+| [função] | Tiago Leal de Lucena |
+| [função] | [Nome] |
 
 ## Créditos
 
