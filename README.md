@@ -191,7 +191,7 @@ Depois de mudar o `grafo.json`, repita o passo 5 com `--wipe`.
 | C: Recuperação e geração | Vinícius Mendes de Lucena |
 | D: Interface | Pedro Henrique Faustino Madruga Navarro |
 | [função] | Tiago Leal de Lucena |
-| [função] | [Nome] |
+| Slides da apresentação | Erickson Cezar Colicchio Junior |
 
 ## Créditos
 
